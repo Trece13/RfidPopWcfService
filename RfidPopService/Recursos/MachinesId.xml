@@ -1,0 +1,143 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="MachinesId" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MachinesId">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Machine" type="xs:string" minOccurs="0" />
+                <xs:element name="MachineId" type="xs:string" minOccurs="0" />
+                <xs:element name="Kg" type="xs:string" minOccurs="0" />
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <MachinesId>
+    <Machine>OM11</Machine>
+    <MachineId>XMLCN_GrupoPhoenix11</MachineId>
+    <Kg>0</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>OM40</Machine>
+    <MachineId>XMLCN_GrupoPhoenix16</MachineId>
+    <Kg>0</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>OM50</Machine>
+    <MachineId>XMLCN_GrupoPhoenix13</MachineId>
+    <Kg>0</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>OM75</Machine>
+    <MachineId>XMLCN_GrupoPhoenix12</MachineId>
+    <Kg>0</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>IM06</Machine>
+    <MachineId>XMLCN_GrupoPhoenix23</MachineId>
+    <Kg>0</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>IM18</Machine>
+    <MachineId>XMLCN_GrupoPhoenix21</MachineId>
+    <Kg>0</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>MA05</Machine>
+    <MachineId>XMLCN_GrupoPhoenix22</MachineId>
+    <Kg>0</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>UF10</Machine>
+    <MachineId>XMLCN_GrupoPhoenix26</MachineId>
+    <Kg>0</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>WE07</Machine>
+    <MachineId>XMLCN_GrupoPhoenix25</MachineId>
+    <Kg>0</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>FLG1</Machine>
+    <MachineId>XMLCN_GrupoPhoenix24</MachineId>
+    <Kg>1</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>LA01</Machine>
+    <MachineId>XMLCN_GrupoPhoenix14</MachineId>
+    <Kg>1</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>LA12</Machine>
+    <MachineId>XMLCN_GrupoPhoenix15</MachineId>
+    <Kg>1</Kg>
+    <Id>Colombia</Id>
+  </MachinesId>
+
+
+  <MachinesId>
+    <Machine>OM13</Machine>
+    <MachineId>XMLCN_GrupoPhoenix33</MachineId>
+    <Kg>0</Kg>
+    <Id>USA</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>OM15</Machine>
+    <MachineId>XMLCN_GrupoPhoenix35</MachineId>
+    <Kg>0</Kg>
+    <Id>USA</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>OM16</Machine>
+    <MachineId>XMLCN_GrupoPhoenix36</MachineId>
+    <Kg>0</Kg>
+    <Id>USA</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>TE01</Machine>
+    <MachineId>XMLCN_GrupoPhoenix37</MachineId>
+    <Kg>0</Kg>
+    <Id>USA</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>TE02</Machine>
+    <MachineId>XMLCN_GrupoPhoenix38</MachineId>
+    <Kg>0</Kg>
+    <Id>USA</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>TE03</Machine>
+    <MachineId>XMLCN_GrupoPhoenix39</MachineId>
+    <Kg>0</Kg>
+    <Id>USA</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>TE04</Machine>
+    <MachineId>XMLCN_GrupoPhoenix310</MachineId>
+    <Kg>0</Kg>
+    <Id>USA</Id>
+  </MachinesId>
+  <MachinesId>
+    <Machine>TE05</Machine>
+    <MachineId>XMLCN_GrupoPhoenix311</MachineId>
+    <Kg>0</Kg>
+    <Id>USA</Id>
+  </MachinesId>
+</NewDataSet>

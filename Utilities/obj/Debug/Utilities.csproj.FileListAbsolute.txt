@@ -1,0 +1,5 @@
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Utilities\bin\Debug\Utilities.dll
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Utilities\obj\Debug\Utilities.dll
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Utilities\obj\Debug\Utilities.pdb
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache

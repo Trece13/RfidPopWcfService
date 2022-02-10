@@ -1,0 +1,7097 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LabelsResources>
+  <Modules>
+    <!-- smita Begins-->
+    <Module name="whInvMaterialPoOrderReturn.aspx">
+      <Idiom name="INGLES">
+        <label name="lblreturnorder">
+          <stringMessage>
+            Return Order
+          </stringMessage>
+        </label>
+        <label name="lblreturnorderjc">
+          <stringMessage>
+            Return Order JC
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save Items
+          </stringMessage>
+        </label>
+        <label name="btnSalir">
+          <stringMessage>
+            Exit
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblreturnorder">
+          <stringMessage>
+            Return Order
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--Smita Begins -->
+
+    <Module name="InventoryAdjustment.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work Order
+          </stringMessage>
+        </label>
+        <label name="lblPalletId">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save Items
+          </stringMessage>
+        </label>
+        <label name="lblPalletId1">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Location
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="lblAdjustmentQuantity">
+          <stringMessage>
+            Adjustment Quantity
+          </stringMessage>
+        </label>
+        <label name="lblReasonCode">
+          <stringMessage>
+            Reason Code
+          </stringMessage>
+        </label>
+        <label name="lblCostCenter">
+          <stringMessage>
+            CostCenter
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar Articulos
+          </stringMessage>
+        </label>
+        <label name="lblPalletId1">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Location
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="lblAdjustmentQuantity">
+          <stringMessage>
+            Adjustment Quantity
+          </stringMessage>
+        </label>
+        <label name="lblReasonCode">
+          <stringMessage>
+            Reason Code
+          </stringMessage>
+        </label>
+        <label name="lblCostCenter">
+          <stringMessage>
+            CostCenter
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--smita Ends-->
+    <Module name="whBarcodePassword.aspx">
+      <Idiom name="INGLES">
+        <label name="UserNameLabel">
+          <stringMessage>
+            Username:
+          </stringMessage>
+        </label>
+        <label name="btnValidate">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblInformation1">
+          <stringMessage>
+            Please enter your username
+          </stringMessage>
+        </label>
+        <label name="LblUserNameDontExist">
+          <stringMessage>
+            UserName doesn't exist
+          </stringMessage>
+        </label>
+        <label name="btnGeneratePassword">
+          <stringMessage>
+            Password
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="UserNameLabel">
+          <stringMessage>
+            Usuario:
+          </stringMessage>
+        </label>
+        <label name="btnValidate">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblInformation1">
+          <stringMessage>
+            Por favor, ingrese el usuario
+          </stringMessage>
+        </label>
+        <label name="LblUserNameDontExist">
+          <stringMessage>
+            Usuario no existe
+          </stringMessage>
+        </label>
+        <label name="btnGeneratePassword">
+          <stringMessage>
+            Contraseña
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <Module name="whInvReceiptRawMaterial.aspx">
+      <Idiom name="INGLES">
+        <label name="lblQuantityError">
+          <stringMessage>
+            Quantity out of range
+          </stringMessage>
+        </label>
+        <label name="lblConvertionError">
+          <stringMessage>
+            The item has no convertion factor for this unit of measure
+          </stringMessage>
+        </label>
+        <label name="lblOrderError">
+          <stringMessage>
+            The order does not exist or is not in an open state
+          </stringMessage>
+        </label>
+        <label name="lblItemError">
+          <stringMessage>
+            The item does not exist or is not associated to the order
+          </stringMessage>
+        </label>
+        <label name="lblDateError">
+          <stringMessage>
+            Registration date is out of range
+          </stringMessage>
+        </label>
+        <label name="lblPositionError">
+          <stringMessage>
+            There is not position for the Item or it is not in an open state
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblQuantityError">
+          <stringMessage>
+            Cantidad fuera de rango
+          </stringMessage>
+        </label>
+        <label name="lblConvertionError">
+          <stringMessage>
+            El item no tiene factor de conversion para esta unidad de medida
+          </stringMessage>
+        </label>
+        <label name="lblOrderError">
+          <stringMessage>
+            El pedido no existe o no está abierto
+          </stringMessage>
+        </label>
+        <label name="lblItemError">
+          <stringMessage>
+            El articulo no existe o no esta asocido a la orden
+          </stringMessage>
+        </label>
+
+        <label name="lblDateError">
+          <stringMessage>
+            La fecha de registro está fuera de rango
+          </stringMessage>
+        </label>
+        <label name="lblPositionError">
+          <stringMessage>
+            No hay posición para el artículo o no está abierto
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <Module name="whInvReceiptRawMaterialNew.aspx">
+      <Idiom name="INGLES">
+        <label name="lblQuantityError">
+          <stringMessage>
+            Quantity out of range
+          </stringMessage>
+        </label>
+        <label name="lblConvertionError">
+          <stringMessage>
+            The item has no convertion factor for this unit of measure
+          </stringMessage>
+        </label>
+        <label name="lblOrderError">
+          <stringMessage>
+            The order does not exist or is not in an open state
+          </stringMessage>
+        </label>
+        <label name="lblItemError">
+          <stringMessage>
+            The item does not exist or is not associated to the order
+          </stringMessage>
+        </label>
+        <label name="lblDateError">
+          <stringMessage>
+            Registration date is out of range
+          </stringMessage>
+        </label>
+        <label name="lblPositionError">
+          <stringMessage>
+            There is not position for the Item or it is not in an open state
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblQuantityError">
+          <stringMessage>
+            Cantidad fuera de rango
+          </stringMessage>
+        </label>
+        <label name="lblConvertionError">
+          <stringMessage>
+            El item no tiene factor de conversion para esta unidad de medida
+          </stringMessage>
+        </label>
+        <label name="lblOrderError">
+          <stringMessage>
+            El pedido no existe o no está abierto
+          </stringMessage>
+        </label>
+        <label name="lblItemError">
+          <stringMessage>
+            El articulo no existe o no esta asocido a la orden
+          </stringMessage>
+        </label>
+
+        <label name="lblDateError">
+          <stringMessage>
+            La fecha de registro está fuera de rango
+          </stringMessage>
+        </label>
+        <label name="lblPositionError">
+          <stringMessage>
+            No hay posición para el artículo o no está abierto
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <Module name="MDMasterPage.Master">
+      <Idiom name="INGLES">
+        <label name="lblDescUser">
+          <stringMessage>
+            User:
+          </stringMessage>
+        </label>
+        <label name="lblDescUsername">
+          <stringMessage>
+            Name:
+          </stringMessage>
+        </label>
+        <label name="btnMainMenu">
+          <stringMessage>
+            Main Menu
+          </stringMessage>
+        </label>
+        <label name="btnCloseSession">
+          <stringMessage>
+            Close Session
+          </stringMessage>
+        </label>
+        <label name="lblDescDateSession">
+          <stringMessage>
+            Date:
+          </stringMessage>
+        </label>
+        <label name="lblIdiom">
+          <stringMessage>
+            Language:
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Remember 9 characters
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Work Order is required
+          </stringMessage>
+        </label>
+        <label name="requiredItem">
+          <stringMessage>
+            Item code is required
+          </stringMessage>
+        </label>
+        <label name="requiredLot">
+          <stringMessage>
+            Lot code is required
+          </stringMessage>
+        </label>
+        <label name="regularQuantity">
+          <stringMessage>
+            Only numbers allowed and Quantity must be greater than zero
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Order doesn't exist or the status is active, release or completed.
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Position
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="headReturnQty">
+          <stringMessage>
+            Return Qty
+          </stringMessage>
+        </label>
+        <label name="headActualQty">
+          <stringMessage>
+            ACtual Qty
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lot Code
+          </stringMessage>
+        </label>
+        <label name="headConfirmed">
+          <stringMessage>
+            Confirmed
+          </stringMessage>
+        </label>
+        <label name="headToReturn">
+          <stringMessage>
+            To Return
+          </stringMessage>
+        </label>
+        <label name="headDisposition">
+          <stringMessage>
+            Disposition
+          </stringMessage>
+        </label>
+        <label name="headReason">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+        <label name="headSupplier">
+          <stringMessage>
+            Suppplier
+          </stringMessage>
+        </label>
+        <label name="headStock">
+          <stringMessage>
+            Stock Warehouse
+          </stringMessage>
+        </label>
+        <label name="headRegrind">
+          <stringMessage>
+            Regrind Item
+          </stringMessage>
+        </label>
+        <label name="headComments">
+          <stringMessage>
+            Comments
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblDescUser">
+          <stringMessage>
+            Usuario:
+          </stringMessage>
+        </label>
+        <label name="lblDescUsername">
+          <stringMessage>
+            Nombre:
+          </stringMessage>
+        </label>
+        <label name="btnMainMenu">
+          <stringMessage>
+            Menu Principal
+          </stringMessage>
+        </label>
+        <label name="btnCloseSession">
+          <stringMessage>
+            Cerrar Sesión
+          </stringMessage>
+        </label>
+        <label name="lblDescDateSession">
+          <stringMessage>
+            Fecha:
+          </stringMessage>
+        </label>
+        <label name="lblIdiom">
+          <stringMessage>
+            Idioma:
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Recuerde, solo 9 caracteres.
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Orden de trabajo es obligatoria.
+          </stringMessage>
+        </label>
+        <label name="regularQuantity">
+          <stringMessage>
+            Solo son permitidos numeros y cantidades mayores a cero
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Orden no existe o su estado es activo, liberado o completado.
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Posición
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="headReturnQty">
+          <stringMessage>
+            Cant. devuelta
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Codigo Lote
+          </stringMessage>
+        </label>
+        <label name="headConfirmed">
+          <stringMessage>
+            Confirmado
+          </stringMessage>
+        </label>
+        <label name="headToReturn">
+          <stringMessage>
+            A Retornar
+          </stringMessage>
+        </label>
+        <label name="headDisposition">
+          <stringMessage>
+            Disposición
+          </stringMessage>
+        </label>
+        <label name="headReason">
+          <stringMessage>
+            Razón
+          </stringMessage>
+        </label>
+        <label name="headSupplier">
+          <stringMessage>
+            Proveedor
+          </stringMessage>
+        </label>
+        <label name="headStock">
+          <stringMessage>
+            Inventario en almacen
+          </stringMessage>
+        </label>
+        <label name="headRegrind">
+          <stringMessage>
+            Articulo molido
+          </stringMessage>
+        </label>
+        <label name="headComments">
+          <stringMessage>
+            Observaciones
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <!--[Login  Folder]-->
+    <Module name="whLogIni.aspx">
+      <Idiom name="INGLES">
+        <label name="BaanFusionTittle">
+          <stringMessage>
+            BAAN FUSION [Mobile Applications]
+          </stringMessage>
+        </label>
+        <label name="CommandnamenotrecogizedLoginFailure">
+          <stringMessage>
+            Command name not recogized. Login Failure
+          </stringMessage>
+        </label>
+        <label name="Incorrectuserorpassword">
+          <stringMessage>
+            Incorrect user or password.
+          </stringMessage>
+        </label>
+        <label name="lblInformation">
+          <stringMessage>
+            Please enter your username and password.
+          </stringMessage>
+        </label>
+        <label name="lblEncLogin">
+          <stringMessage>
+            Account Information
+          </stringMessage>
+        </label>
+        <label name="UserNameLabel">
+          <stringMessage>
+            Username
+          </stringMessage>
+        </label>
+        <label name="PasswordLabel">
+          <stringMessage>
+            Password
+          </stringMessage>
+        </label>
+        <label name="LoginButton">
+          <stringMessage>
+            Login
+          </stringMessage>
+        </label>
+        <label name="lblInformation1">
+          <stringMessage>
+            Please change your password.
+          </stringMessage>
+        </label>
+        <label name="lblEncLogin1">
+          <stringMessage>
+            Change password
+          </stringMessage>
+        </label>
+        <label name="ddlIdioma1">
+          <stringMessage>
+            INGLES
+          </stringMessage>
+        </label>
+        <label name="lblCurrentPassword">
+          <stringMessage>
+            Current password:
+          </stringMessage>
+        </label>
+        <label name="lblNewPassword">
+          <stringMessage>
+            New password:
+          </stringMessage>
+        </label>
+        <label name="lblConfirmPassword">
+          <stringMessage>
+            Confirm password:
+          </stringMessage>
+        </label>
+        <label name="btnChangePassword">
+          <stringMessage>
+            Update
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="BaanFusionTittle">
+        <stringMessage>
+          BAAN FUSION [Mobile Applications]
+        </stringMessage>
+        </label>
+        <label name="CommandnamenotrecogizedLoginFailure">
+          <stringMessage>
+            Command name not recogized. Login Failure
+          </stringMessage>
+        </label>
+        <label name="Incorrectuserorpassword">
+          <stringMessage>
+            Incorrect user or password.
+          </stringMessage>
+        </label>
+        <label name="lblInformation">
+          <stringMessage>
+            Por favor ingrese usuario y contraseña.
+          </stringMessage>
+        </label>
+        <label name="lblEncLogin">
+          <stringMessage>
+            Inicio de sesión
+          </stringMessage>
+        </label>
+        <label name="UserNameLabel">
+          <stringMessage>
+            Usuario
+          </stringMessage>
+        </label>
+        <label name="PasswordLabel">
+          <stringMessage>
+            Contraseña
+          </stringMessage>
+        </label>
+        <label name="LoginButton">
+          <stringMessage>
+            Iniciar
+          </stringMessage>
+        </label>
+        <label name="lblInformation1">
+          <stringMessage>
+            Por favor ingrese usuario y contraseña.
+          </stringMessage>
+        </label>
+        <label name="lblEncLogin1">
+          <stringMessage>
+            Inicio de sesión
+          </stringMessage>
+        </label>
+        <label name="ddlIdioma1">
+          <stringMessage>
+            ESPAÑOL
+          </stringMessage>
+        </label>
+        <label name="lblCurrentPassword">
+          <stringMessage>
+            Contraseña actual:
+          </stringMessage>
+        </label>
+        <label name="lblNewPassword">
+          <stringMessage>
+            Nueva contraseña:
+          </stringMessage>
+        </label>
+        <label name="lblConfirmPassword">
+          <stringMessage>
+            Confirmar contraseña:
+          </stringMessage>
+        </label>
+        <label name="btnChangePassword">
+          <stringMessage>
+            Actualizar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whChangePassword.aspx">
+      <Idiom name="INGLES">
+        <label name="lblInformation">
+          <stringMessage>
+            Please change your password.
+          </stringMessage>
+        </label>
+        <label name="lblEncLogin">
+          <stringMessage>
+            Change password
+          </stringMessage>
+        </label>
+        <label name="lblCurrentPassword">
+          <stringMessage>
+            Current password:
+          </stringMessage>
+        </label>
+        <label name="lblNewPassword">
+          <stringMessage>
+            New password:
+          </stringMessage>
+        </label>
+        <label name="lblConfirmPassword">
+          <stringMessage>
+            Confirm password:
+          </stringMessage>
+        </label>
+        <label name="LoginButton">
+          <stringMessage>
+            Update
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblInformation">
+          <stringMessage>
+            Por favor ingrese usuario y contraseña.
+          </stringMessage>
+        </label>
+        <label name="lblEncLogin">
+          <stringMessage>
+            Inicio de sesión
+          </stringMessage>
+        </label>
+        <label name="lblCurrentPassword">
+          <stringMessage>
+            Contraseña actual:
+          </stringMessage>
+        </label>
+        <label name="lblNewPassword">
+          <stringMessage>
+            Nueva contraseña:
+          </stringMessage>
+        </label>
+        <label name="lblConfirmPassword">
+          <stringMessage>
+            Confirmar contraseña:
+          </stringMessage>
+        </label>
+        <label name="LoginButton">
+          <stringMessage>
+            Actualizar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--///////////////////-->
+
+    <!--[Migration Folder]-->
+    <Module name="whInvAdvices.aspx">
+      <Idiom name="INGLES">
+        <label name="lblSugNumero">
+          <stringMessage>
+            Advice number:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Order
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblCantSugerida">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="lblUnidad">
+          <stringMessage>
+            UOM
+          </stringMessage>
+        </label>
+        <label name="lblAlmacen">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblUbicacion">
+          <stringMessage>
+            Location
+          </stringMessage>
+        </label>
+        <label name="lblLote">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save Picking
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblSugNumero">
+          <stringMessage>
+            Sugerencia Número:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Orden
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblCantSugerida">
+          <stringMessage>
+            Cant. Sugerida
+          </stringMessage>
+        </label>
+        <label name="lblUnidad">
+          <stringMessage>
+            Un
+          </stringMessage>
+        </label>
+        <label name="lblAlmacen">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="lblUbicacion">
+          <stringMessage>
+            Ubicación
+          </stringMessage>
+        </label>
+        <label name="lblLote">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar Recolección
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvLocations.aspx">
+      <Idiom name="INGLES">
+        <label name="lblOrigenMovimiento">
+          <stringMessage>
+            Movement Origin:
+          </stringMessage>
+        </label>
+        <label name="lblNumeroRecepcion">
+          <stringMessage>
+            Receipt Number:
+          </stringMessage>
+        </label>
+        <label name="btnConsultarRecepcion">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardarRecepcion">
+          <stringMessage>
+            Save Receipt
+          </stringMessage>
+        </label>
+        <label name="ddlPurchases">
+          <stringMessage>
+            PURCHASES
+          </stringMessage>
+        </label>
+        <label name="ddlSales">
+          <stringMessage>
+            SALES
+          </stringMessage>
+        </label>
+        <label name="ddlManufacture">
+          <stringMessage>
+            MANUFACTURE
+          </stringMessage>
+        </label>
+        <label name="ddlTransfers">
+          <stringMessage>
+            TRANSFERS
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblOrigenMovimiento">
+          <stringMessage>
+            Origen Movimiento:
+          </stringMessage>
+        </label>
+        <label name="lblNumeroRecepcion">
+          <stringMessage>
+            No. Recepcion:
+          </stringMessage>
+        </label>
+        <label name="btnConsultarRecepcion">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardarRecepcion">
+          <stringMessage>
+            Guardar Recepción
+          </stringMessage>
+        </label>
+        <label name="ddlPurchases">
+          <stringMessage>
+            COMPRAS
+          </stringMessage>
+        </label>
+        <label name="ddlSales">
+          <stringMessage>
+            VENTAS
+          </stringMessage>
+        </label>
+        <label name="ddlManufacture">
+          <stringMessage>
+            MANUFACTURA
+          </stringMessage>
+        </label>
+        <label name="ddlTransfers">
+          <stringMessage>
+            TRANSFERENCIAS
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvPicking.aspx">
+      <Idiom name="INGLES">
+        <label name="lblNumeroRecepcion">
+          <stringMessage>
+            Order Number:
+          </stringMessage>
+        </label>
+        <label name="btnConsultarRecepcion">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardarRecepcion">
+          <stringMessage>
+            End Picking
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblNumeroRecepcion">
+          <stringMessage>
+            No. Orden:
+          </stringMessage>
+        </label>
+        <label name="btnConsultarRecepcion">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardarRecepcion">
+          <stringMessage>
+            Finalizar Recolección
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvReceipts.aspx">
+      <Idiom name="INGLES">
+        <label name="lblNumeroRecepcion">
+          <stringMessage>
+            Receipt Number:
+          </stringMessage>
+        </label>
+        <label name="btnConsultarRecepcion">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardarRecepcion">
+          <stringMessage>
+            Save Receipt
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblNumeroRecepcion">
+          <stringMessage>
+            No. Recepcion:
+          </stringMessage>
+        </label>
+        <label name="btnConsultarRecepcion">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardarRecepcion">
+          <stringMessage>
+            Guardar Recepción
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvTransfers.aspx">
+      <Idiom name="INGLES">
+        <label name="lblNumeroLote">
+          <stringMessage>
+            Lot number:
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblDescription">
+          <stringMessage>
+            Description:
+          </stringMessage>
+        </label>
+        <label name="lblSourceLocation">
+          <stringMessage>
+            Warehouse:
+          </stringMessage>
+        </label>
+        <label name="lblUbicacion">
+          <stringMessage>
+            Source Location:
+          </stringMessage>
+        </label>
+        <label name="btnConsultarSource">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblCantidadUnidad">
+          <stringMessage>
+            Quantity - Unit:
+          </stringMessage>
+        </label>
+        <label name="lblCantidad">
+          <stringMessage>
+            Quantity:
+          </stringMessage>
+        </label>
+        <label name="lblUbicacionDestino">
+          <stringMessage>
+            Destination Location:
+          </stringMessage>
+        </label>
+        <label name="lblCantidadTrasnferir">
+          <stringMessage>
+            Quantity to transfer:
+          </stringMessage>
+        </label>
+        <label name="btnActualizar">
+          <stringMessage>
+            Update
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblNumeroLote">
+          <stringMessage>
+            Número de lote:
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblDescription">
+          <stringMessage>
+            Descripción:
+          </stringMessage>
+        </label>
+        <label name="lblSourceLocation">
+          <stringMessage>
+            Almacen:
+          </stringMessage>
+        </label>
+        <label name="lblUbicacion">
+          <stringMessage>
+            Ubicación origen:
+          </stringMessage>
+        </label>
+        <label name="btnConsultarSource">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblCantidadUnidad">
+          <stringMessage>
+            Cantidad - Unidad:
+          </stringMessage>
+        </label>
+        <label name="lblCantidad">
+          <stringMessage>
+            Cantidad:
+          </stringMessage>
+        </label>
+        <label name="lblUbicacionDestino">
+          <stringMessage>
+            Ubicación destino:
+          </stringMessage>
+        </label>
+        <label name="lblCantidadTrasnferir">
+          <stringMessage>
+            Cantidad a transferir:
+          </stringMessage>
+        </label>
+        <label name="btnActualizar">
+          <stringMessage>
+            Actualizar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvAlmArticulo.aspx">
+      <Idiom name="INGLES">
+        <label name="lblArticulo">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblArticulo">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvArticulo.aspx">
+      <Idiom name="INGLES">
+        <label name="lblLote">
+          <stringMessage>
+            Lot:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblLote">
+          <stringMessage>
+            Lote:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvUbicacion.aspx">
+      <Idiom name="INGLES">
+        <label name="lblUbicacion">
+          <stringMessage>
+            Location:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblUbicacion">
+          <stringMessage>
+            Ubicación:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvLabelPalletTags.aspx">
+      <Idiom name="INGLES">
+        <label name="MachineLbl">
+          <stringMessage>
+            Machine :
+          </stringMessage>
+        </label>
+        <label name="WorkorderhasnotbeeninitiatedPOP">
+          <stringMessage>
+            Work order has not been initiated on P.O.P.
+          </stringMessage>
+        </label>
+        <label name="announcedago">
+          <stringMessage>
+            Previous pallet has been announced, Please wait {0} minutes to continue.
+          </stringMessage>
+        </label>
+        <label name="wonotinitiated">
+          <stringMessage>
+            The Work Order ( {0} ), Not Initiated.
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Work order Nº:
+          </stringMessage>
+        </label>
+        <label name="lblSecuence">
+          <stringMessage>
+            Sequence:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblMadeIn">
+          <stringMessage>
+            MADE IN:
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work Order Lot
+          </stringMessage>
+        </label>
+        <label name="lblPalletNumber">
+          <stringMessage>
+            Pallet Number
+          </stringMessage>
+        </label>
+        <label name="lblInspectorInitial">
+          <stringMessage>
+            Inspector Initial
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Date
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Shift
+          </stringMessage>
+        </label>
+        <label name="lblCasePerPallet">
+          <stringMessage>
+            Case Per Pallet
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Print
+          </stringMessage>
+        </label>
+        <label name="btnExit">
+          <stringMessage>
+            Exit
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblOrder">
+          <stringMessage>
+            Nª Orden producción:
+          </stringMessage>
+        </label>
+        <label name="lblSecuence">
+          <stringMessage>
+            Secuencia:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblMadeIn">
+          <stringMessage>
+            HECHO EN:
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Lote orden trabajo
+          </stringMessage>
+        </label>
+        <label name="lblPalletNumber">
+          <stringMessage>
+            Numero de pallet
+          </stringMessage>
+        </label>
+        <label name="lblInspectorInitial">
+          <stringMessage>
+            Inspector Inicial
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Fecha
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Cambio
+          </stringMessage>
+        </label>
+        <label name="lblCasePerPallet">
+          <stringMessage>
+            Caja por pallet
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Imprimir
+          </stringMessage>
+        </label>
+        <label name="btnExit">
+          <stringMessage>
+            Salir
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvLabelPalletTagsPartial.aspx">
+      <Idiom name="INGLES">
+        <label name="MachineLbl">
+          <stringMessage>
+            Machine :
+          </stringMessage>
+        </label>
+        <label name="WorkorderhasnotbeeninitiatedPOP">
+          <stringMessage>
+            Work order has not been initiated on P.O.P.
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Work order Nº:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblMadeIn">
+          <stringMessage>
+            MADE IN:
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work Order Lot
+          </stringMessage>
+        </label>
+        <label name="lblPalletNumber">
+          <stringMessage>
+            Pallet Number
+          </stringMessage>
+        </label>
+        <label name="lblInspectorInitial">
+          <stringMessage>
+            Inspector Initial
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Date
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Shift
+          </stringMessage>
+        </label>
+        <label name="lblCasePerPallet">
+          <stringMessage>
+            Case Per Pallet
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Print
+          </stringMessage>
+        </label>
+        <label name="btnExit">
+          <stringMessage>
+            Exit
+          </stringMessage>
+        </label>
+        <label name="wonotinitiated">
+          <stringMessage>
+            The Work Order ( {0} ), Not Initiated.
+          </stringMessage>
+        </label>
+      </Idiom>
+
+      <Idiom name="ESPAÑOL">
+        <label name="WorkorderhasnotbeeninitiatedPOP">
+          <stringMessage>
+            Work order has not been initiated on P.O.P.
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Nª Orden producción:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Cantidad:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblMadeIn">
+          <stringMessage>
+            HECHO EN:
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Lote orden trabajo
+          </stringMessage>
+        </label>
+        <label name="lblPalletNumber">
+          <stringMessage>
+            Numero de pallet
+          </stringMessage>
+        </label>
+        <label name="lblInspectorInitial">
+          <stringMessage>
+            Inspector Inicial
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Fecha
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Cambio
+          </stringMessage>
+        </label>
+        <label name="lblCasePerPallet">
+          <stringMessage>
+            Caja por pallet
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Imprimir
+          </stringMessage>
+        </label>
+        <label name="btnExit">
+          <stringMessage>
+            Salir
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvAnuncioOrd.aspx">
+      <Idiom name="INGLES">
+        <label name="lblOrderNumber">
+          <stringMessage>
+            Order No.:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Production Order No.:
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="lblWareHouse">
+          <stringMessage>
+            Warehouse:
+          </stringMessage>
+        </label>
+        <label name="lblTotal">
+          <stringMessage>
+            Total:
+          </stringMessage>
+        </label>
+        <label name="lblDelivered">
+          <stringMessage>
+            Delivered:
+          </stringMessage>
+        </label>
+        <label name="lblPending">
+          <stringMessage>
+            Pending:
+          </stringMessage>
+        </label>
+        <label name="lblAnounced">
+          <stringMessage>
+            Announced:
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit:
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblOrderNumber">
+          <stringMessage>
+            Nº Orden:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Nº order de producción:
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="lblWareHouse">
+          <stringMessage>
+            Almacen:
+          </stringMessage>
+        </label>
+        <label name="lblTotal">
+          <stringMessage>
+            Total:
+          </stringMessage>
+        </label>
+        <label name="lblDelivered">
+          <stringMessage>
+            Entregado:
+          </stringMessage>
+        </label>
+        <label name="lblPending">
+          <stringMessage>
+            Pendiente:
+          </stringMessage>
+        </label>
+        <label name="lblAnounced">
+          <stringMessage>
+            Anunciado:
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad:
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvReprintLabelMaterialRejectedM.aspx">
+      <Idiom name="INGLES">
+        <label name="lblOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="lblSecuence">
+          <stringMessage>
+            Sequence
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblDmtNumber">
+          <stringMessage>
+            DMT - NUMBER
+          </stringMessage>
+        </label>
+        <label name="lblDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="lblDescLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="lblRejected">
+          <stringMessage>
+            Rejected Qty
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            WorkOrder
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Printed by
+          </stringMessage>
+        </label>
+        <label name="lblFecha">
+          <stringMessage>
+            Date
+          </stringMessage>
+        </label>
+        <label name="lblMachine">
+          <stringMessage>
+            Machine
+          </stringMessage>
+        </label>
+        <label name="lblReason">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+        <label name="lblComments">
+          <stringMessage>
+            Comments
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Print
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblOrder">
+          <stringMessage>
+            Order de trabajo:
+          </stringMessage>
+        </label>
+        <label name="lblSecuence">
+          <stringMessage>
+            Secuencia:
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lote:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblDmtNumber">
+          <stringMessage>
+            DMT - NUMERO
+          </stringMessage>
+        </label>
+        <label name="lblDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="lblDescLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="lblRejected">
+          <stringMessage>
+            Cant. rechazada
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Order de trabajo
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Impreso por
+          </stringMessage>
+        </label>
+        <label name="lblFecha">
+          <stringMessage>
+            Fecha
+          </stringMessage>
+        </label>
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina
+          </stringMessage>
+        </label>
+        <label name="lblReason">
+          <stringMessage>
+            Razón
+          </stringMessage>
+        </label>
+        <label name="lblComments">
+          <stringMessage>
+            Observaciones
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Imprimir
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvReprintLabel.aspx">
+      <Idiom name="INGLES">
+        <label name="lblOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="lblSecuence">
+          <stringMessage>
+            Sequence:
+          </stringMessage>
+        </label>
+        <label name="lblRollWinder">
+          <stringMessage>
+            Roll Winder:
+          </stringMessage>
+        </label>
+        <label name="lblTRollWinder">
+          <stringMessage>
+            Roll Winder:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Print
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work Order Lot
+          </stringMessage>
+        </label>
+        <label name="lblWeight">
+          <stringMessage>
+            Weight
+          </stringMessage>
+        </label>
+        <label name="lblRollNumber">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Date
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Shift
+          </stringMessage>
+        </label>
+        <label name="lblOperator">
+          <stringMessage>
+            Operator
+          </stringMessage>
+        </label>
+        <label name="lblRollWinder">
+          <stringMessage>
+            Roll Winder
+          </stringMessage>
+        </label>
+        <label name="lblTRollWinder">
+          <stringMessage>
+            Roll Winder
+          </stringMessage>
+        </label>
+        <label name="lblMachine">
+          <stringMessage>
+            Machine
+          </stringMessage>
+        </label>
+        <label name="lblReprintedBy">
+          <stringMessage>
+            Reprinted by
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="lblSecuence">
+          <stringMessage>
+            Secuencia:
+          </stringMessage>
+        </label>
+        <label name="lblRollWinder">
+          <stringMessage>
+            Bobina:
+          </stringMessage>
+        </label>
+        <label name="lblTRollWinder">
+          <stringMessage>
+            Bobina:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Imprimir
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Lote de orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="lblWeight">
+          <stringMessage>
+            Tamaño
+          </stringMessage>
+        </label>
+        <label name="lblRollNumber">
+          <stringMessage>
+            Número de Pallet
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Fecha
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Cambio
+          </stringMessage>
+        </label>
+        <label name="lblOperator">
+          <stringMessage>
+            Operador
+          </stringMessage>
+        </label>
+        <label name="lblRollWinder">
+          <stringMessage>
+            Bobina
+          </stringMessage>
+        </label>
+        <label name="lblTRollWinder">
+          <stringMessage>
+            Bobina
+          </stringMessage>
+        </label>
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina
+          </stringMessage>
+        </label>
+        <label name="lblReprintedBy">
+          <stringMessage>
+            Reimpreso por
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvSuppliesRequest.aspx">
+      <Idiom name="INGLES">
+        <label name="lblMachine">
+          <stringMessage>
+            Machine code:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblSequence">
+          <stringMessage>
+            Sequence
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="lblValueSelect">
+          <stringMessage>
+            Selected item
+          </stringMessage>
+        </label>
+        <label name="btnSaveOrder">
+          <stringMessage>
+            Save order
+          </stringMessage>
+        </label>
+        <label name="lblMaxValue">
+          <stringMessage>
+            Max Quantity
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblMachine">
+          <stringMessage>
+            Codigo maquina:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblSequence">
+          <stringMessage>
+            Secuencia
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Cantidad
+          </stringMessage>
+        </label>
+        <label name="lblValueSelect">
+          <stringMessage>
+            Item seleccionado
+          </stringMessage>
+        </label>
+        <label name="btnSaveOrder">
+          <stringMessage>
+            Guardar orden
+          </stringMessage>
+        </label>
+        <label name="lblMaxValue">
+          <stringMessage>
+            Cantidad Maxima
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvStarWorkOrders.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Order
+          </stringMessage>
+        </label>
+        <label name="lblMachine">
+          <stringMessage>
+            Machine
+          </stringMessage>
+        </label>
+        <label name="lblStatus">
+          <stringMessage>
+            Status
+          </stringMessage>
+        </label>
+        <label name="lblAction">
+          <stringMessage>
+            Action
+          </stringMessage>
+        </label>
+        <label name="btnSaveOrder">
+          <stringMessage>
+            Save order
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Orden
+          </stringMessage>
+        </label>
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina
+          </stringMessage>
+        </label>
+        <label name="lblStatus">
+          <stringMessage>
+            Estado
+          </stringMessage>
+        </label>
+        <label name="lblAction">
+          <stringMessage>
+            Acción
+          </stringMessage>
+        </label>
+        <label name="btnSaveOrder">
+          <stringMessage>
+            Guardar orden
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvRollAnnounce.aspx">
+      <Idiom name="INGLES">
+        <label name="lblRollNumber">
+          <stringMessage>
+            Pallet ID:
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="btnRegister">
+          <stringMessage>
+            Register
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblRollNumber">
+          <stringMessage>
+            Número de Pallet:
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Cantidad:
+          </stringMessage>
+        </label>
+        <label name="btnRegister">
+          <stringMessage>
+            Registrar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvPlantConsuption.aspx">
+      <Idiom name="INGLES">
+        <label name="lblRollNumber">
+          <stringMessage>
+            Pallet ID:
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="btnRegister">
+          <stringMessage>
+            Register
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblRollNumber">
+          <stringMessage>
+            Número de Pallet:
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Cantidad:
+          </stringMessage>
+        </label>
+        <label name="btnRegister">
+          <stringMessage>
+            Registrar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvTransfersPlant.aspx">
+      <Idiom name="INGLES">
+        <label name="lblPlant">
+          <stringMessage>
+            Plant:
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="lblTargetLocation">
+          <stringMessage>
+            Target location:
+          </stringMessage>
+        </label>
+        <label name="lblTargetQty">
+          <stringMessage>
+            Target qty:
+          </stringMessage>
+        </label>
+        <label name="btnTransfer">
+          <stringMessage>
+            Transfer
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblPlant">
+          <stringMessage>
+            Planta:
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="lblTargetLocation">
+          <stringMessage>
+            Ubicación de destino:
+          </stringMessage>
+        </label>
+        <label name="lblTargetQty">
+          <stringMessage>
+            Cantidad prevista:
+          </stringMessage>
+        </label>
+        <label name="btnTransfer">
+          <stringMessage>
+            Transferir
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvTimeRegistration.aspx">
+      <Idiom name="INGLES">
+        <label name="lblMachine">
+          <stringMessage>
+            Machine:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvTimeAbscent.aspx">
+      <Idiom name="INGLES">
+        <label name="lblMachine">
+          <stringMessage>
+            Machine:
+          </stringMessage>
+        </label>
+        <label name="lblType">
+          <stringMessage>
+            Type:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save Order
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina:
+          </stringMessage>
+        </label>
+        <label name="lblType">
+          <stringMessage>
+            Tipo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar Orden
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvTime.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save Order
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar Orden
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvMaterialRejectedWarehouse.aspx">
+      <Idiom name="INGLES">
+        <label name="Thelotcantbeempty">
+          <stringMessage>
+            The lot can't be empty
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Warehouse:
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Location:
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save Item
+          </stringMessage>
+        </label>
+        <label name="lblDefectiveMaterial">
+          <stringMessage>
+            DEFECTIVE MATERIAL TAG
+          </stringMessage>
+        </label>
+        <label name="lblDescDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="lblDescReason">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+        <label name="btnSalir">
+          <stringMessage>
+            Exit
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Print
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Printed by -
+          </stringMessage>
+        </label>
+        <label name="lblRejectedQty">
+          <stringMessage>
+            Rejected qty -
+          </stringMessage>
+        </label>
+        <label name="lblDescLot">
+          <stringMessage>
+            Lot -
+          </stringMessage>
+        </label>
+        <label name="lblDescComments">
+          <stringMessage>
+            Comments -
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Date
+          </stringMessage>
+        </label>
+
+        <label name="lblitemError">
+          <stringMessage>
+            The item does not exist
+          </stringMessage>
+        </label>
+        <label name="lblWarehouseError">
+          <stringMessage>
+            The Warehouse does not exist
+          </stringMessage>
+        </label>
+        <label name="lblLocationError">
+          <stringMessage>
+            The location does not exist
+          </stringMessage>
+        </label>
+        <label name="lblLotError">
+          <stringMessage>
+            The lot does not exist
+          </stringMessage>
+        </label>
+      </Idiom>
+
+
+
+      <Idiom name="ESPAÑOL">
+        <label name="lblItem">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Almacen:
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Ubicación:
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lote:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar Articulo
+          </stringMessage>
+        </label>
+        <label name="lblDefectiveMaterial">
+          <stringMessage>
+            ETIQUETA MATERIAL DEFECTUOSO
+          </stringMessage>
+        </label>
+        <label name="lblDescDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="lblDescReason">
+          <stringMessage>
+            Razor
+          </stringMessage>
+        </label>
+        <label name="btnSalir">
+          <stringMessage>
+            Salir
+          </stringMessage>
+        </label>
+        <label name="linkPrint">
+          <stringMessage>
+            Imprimir
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Imprimido por -
+          </stringMessage>
+        </label>
+        <label name="lblRejectedQty">
+          <stringMessage>
+            Cant devuelta -
+          </stringMessage>
+        </label>
+        <label name="lblDescLot">
+          <stringMessage>
+            Lote -
+          </stringMessage>
+        </label>
+        <label name="lblDescComments">
+          <stringMessage>
+            Comentarios -
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Fecha
+          </stringMessage>
+        </label>
+
+        <label name="lblitemError">
+          <stringMessage>
+            El item no existe
+          </stringMessage>
+        </label>
+        <label name="lblWarehouseError">
+          <stringMessage>
+            El almacen no existe
+          </stringMessage>
+        </label>
+        <label name="lblLocationError">
+          <stringMessage>
+            La localización no existe
+          </stringMessage>
+        </label>
+        <label name="lblLotError">
+          <stringMessage>
+            El lote no existe
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!-- smita Begins-->
+
+
+
+    <Module name="whInvMrbRejection.aspx">
+      <Idiom name="INGLES">
+        <label name="lblMrbWarehouse">
+          <stringMessage>
+            MRB Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Pallet ID:
+          </stringMessage>
+        </label>
+        <label name="lblPalletId">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnSalirLocate">
+          <stringMessage>
+            Exit
+          </stringMessage>
+        </label>
+        <label name="btnSalirAnnounce">
+          <stringMessage>
+            Exit
+          </stringMessage>
+        </label>
+        <label name="btnSalirDelivered">
+          <stringMessage>
+            Exit
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save Items
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save Item
+          </stringMessage>
+        </label>
+        <label name="btnGuardarDelivered">
+          <stringMessage>
+            Save Item
+          </stringMessage>
+        </label>
+        <label name="btnGuardarLocated">
+          <stringMessage>
+            Save Item
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Remember 9 characters
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Work Order is required
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Order doesn't exist or don´t have items
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Position
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lot Code
+          </stringMessage>
+        </label>
+        <label name="headReturnQty">
+          <stringMessage>
+            Return Qty
+          </stringMessage>
+        </label>
+        <label name="headConfirmed">
+          <stringMessage>
+            Confirmed
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+
+        <label name="headPalletID">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Order
+          </stringMessage>
+        </label>
+        <label name="lblDescriptionDelivered">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Qty
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Shift
+          </stringMessage>
+        </label>
+        <label name="lblReasonDelivered">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+        <label name="lblRejectedType">
+          <stringMessage>
+            Reject Type
+          </stringMessage>
+        </label>
+        <label name="lblExactReason">
+          <stringMessage>
+            Exact Reason
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblDefectiveMaterial">
+          <stringMessage>
+            DEFECTIVE MATERIAL TAG
+          </stringMessage>
+        </label>
+        <label name="lblRejectedQty">
+          <stringMessage>
+            Rejected qty -
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Printed by -
+          </stringMessage>
+        </label>
+        <label name="lblDescLot">
+          <stringMessage>
+            Lot -
+          </stringMessage>
+        </label>
+        <label name="lblDescComments">
+          <stringMessage>
+            Comments :
+          </stringMessage>
+        </label>
+        <label name="lblReasonDesc">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar Articulos
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Recuerde, solo 9 caracteres.
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Orden de trabajo es obligatoria.
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Orden no existe o no tiene articulos.
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Posición
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="headReturnQty">
+          <stringMessage>
+            Cant. devuelta
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Codigo Lote
+          </stringMessage>
+        </label>
+        <label name="headConfirmed">
+          <stringMessage>
+            Confirmado
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Orden
+          </stringMessage>
+        </label>
+        <label name="lblDescriptionDelivered">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Cant
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Cambio
+          </stringMessage>
+        </label>
+        <label name="lblReason">
+          <stringMessage>
+            Razón
+          </stringMessage>
+        </label>
+        <label name="lblRejectedType">
+          <stringMessage>
+            Tipo de devolución
+          </stringMessage>
+        </label>
+        <label name="lblExactReason">
+          <stringMessage>
+            Razón exacta
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <Module name="whInvMrbMaterialDisposition.aspx">
+      <Idiom name="INGLES">
+        <label name="lblItemError">
+          <stringMessage>
+            The item does not exist
+          </stringMessage>
+        </label>
+        <label name="PalletIDdoesntexistsCannotcontinue">
+          <stringMessage>
+            Pallet Id doesn't exist.  Cannot continue
+          </stringMessage>
+        </label>
+        <label name="PalletIDdoesntavailablefordisposition">
+          <stringMessage>
+            Pallet Id doesn't available for disposition
+          </stringMessage>
+        </label>
+        <label name="lblLotError">
+          <stringMessage>
+            The lot does not exist
+          </stringMessage>
+        </label>
+        <label name="lblCommentsNull">
+          <stringMessage>
+            The comments cannot be empty.
+          </stringMessage>
+        </label>
+        <label name="lblWarehouseNull">
+          <stringMessage>
+            The warehouse cannot be null.
+          </stringMessage>
+        </label>
+        <label name="lblItemNull">
+          <stringMessage>
+            The regrind item cannot be null.
+          </stringMessage>
+        </label>
+        <label name="lblFactorNull">
+          <stringMessage>
+            The conversion factor cannot be null.
+          </stringMessage>
+        </label>
+
+        <label name="lblDescItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblDescLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="printLabel">
+          <stringMessage>
+            Print Tag
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save Items
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="headActualQty">
+          <stringMessage>
+            ACtual Qty
+          </stringMessage>
+        </label>
+        <label name="headToReturn">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="headDisposition">
+          <stringMessage>
+            Disposition
+          </stringMessage>
+        </label>
+        <label name="headReason">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+        <label name="headSupplier">
+          <stringMessage>
+            Suppplier
+          </stringMessage>
+        </label>
+        <label name="headStock">
+          <stringMessage>
+            Stock Warehouse
+          </stringMessage>
+        </label>
+        <label name="headRegrind">
+          <stringMessage>
+            Regrind Item
+          </stringMessage>
+        </label>
+        <label name="headComments">
+          <stringMessage>
+            Comments
+          </stringMessage>
+        </label>
+        <label name="lblMrbWarehouse">
+          <stringMessage>
+            MRB Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Pallet ID:
+          </stringMessage>
+        </label>
+        <label name="lblPalletId">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save Items
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save Item
+          </stringMessage>
+        </label>
+
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblItemError">
+          <stringMessage>
+            El item no existe
+          </stringMessage>
+        </label>
+        <label name="PalletIDdoesntexistsCannotcontinue">
+          <stringMessage>
+            Pallet Id no existe.  No se puede continuar
+          </stringMessage>
+        </label>
+        <label name="PalletIDdoesntavailablefordisposition">
+          <stringMessage>
+            Pallet Id no disponible para disposición
+          </stringMessage>
+        </label>
+        <label name="lblCommentsNull">
+          <stringMessage>
+            TLos comentarios no pueden estar vacios
+          </stringMessage>
+        </label>
+        <label name="lblLotError">
+          <stringMessage>
+            El lote no existe
+          </stringMessage>
+        </label>
+        <label name="lblReasoNull">
+          <stringMessage>
+            LA razon no puede ser nula.
+          </stringMessage>
+        </label>
+        <label name="lblWarehouseNull">
+          <stringMessage>
+            La Bodega no puede ser nula.
+          </stringMessage>
+        </label>
+        <label name="lblItemNull">
+          <stringMessage>
+            El Item no puede ser nulo.
+          </stringMessage>
+        </label>
+        <label name="lblFactorNull">
+          <stringMessage>
+            El usuario no tiene definido almacen MRB.
+          </stringMessage>
+        </label>
+
+        <label name="lblDescItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblDescLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="printLabel">
+          <stringMessage>
+            Imprimir etiqueta
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar Articulos
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="headActualQty">
+          <stringMessage>
+            Cant actual
+          </stringMessage>
+        </label>
+        <label name="headToReturn">
+          <stringMessage>
+            Cantidad
+          </stringMessage>
+        </label>
+        <label name="headDisposition">
+          <stringMessage>
+            Disposición
+          </stringMessage>
+        </label>
+        <label name="headReason">
+          <stringMessage>
+            Razón
+          </stringMessage>
+        </label>
+        <label name="headSupplier">
+          <stringMessage>
+            Proveedor
+          </stringMessage>
+        </label>
+        <label name="headStock">
+          <stringMessage>
+            Inventario en almacen
+          </stringMessage>
+        </label>
+        <label name="headRegrind">
+          <stringMessage>
+            Articulo molido
+          </stringMessage>
+        </label>
+        <label name="headComments">
+          <stringMessage>
+            Observaciones
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar Articulos
+          </stringMessage>
+        </label>
+
+      </Idiom>
+    </Module>
+    <!-- Smita Ends-->
+
+
+    <Module name="whInvMaterialRejectedPlant.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Pallet ID:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save Item
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            ID Pallet:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar Articulo
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvMaterialRejectedMachine.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save Item
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Order
+          </stringMessage>
+        </label>
+        <label name="lblDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Qty
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Shift
+          </stringMessage>
+        </label>
+        <label name="lblReason">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+        <label name="lblRejectedType">
+          <stringMessage>
+            Reject Type
+          </stringMessage>
+        </label>
+        <label name="lblExactReason">
+          <stringMessage>
+            Exact Reason
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar Articulo
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Orden
+          </stringMessage>
+        </label>
+        <label name="lblDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Cant
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="lblShift">
+          <stringMessage>
+            Cambio
+          </stringMessage>
+        </label>
+        <label name="lblReason">
+          <stringMessage>
+            Razón
+          </stringMessage>
+        </label>
+        <label name="lblRejectedType">
+          <stringMessage>
+            Tipo de devolución
+          </stringMessage>
+        </label>
+        <label name="lblExactReason">
+          <stringMessage>
+            Razón exacta
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvCosts.aspx">
+      <Idiom name="INGLES">
+        <label name="WorkorderhasnotbeeninitiatedPOP">
+          <stringMessage>
+            Work order has not been initiated on P.O.P.
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Manufacturing order:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Submit Request
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="WorkorderhasnotbeeninitiatedPOP">
+          <stringMessage>
+            Work order has not been initiated on P.O.P.
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Orden de fabricación:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Enviar Solicitud
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvConfirm.aspx">
+      <Idiom name="INGLES">
+        <label name="lblMovement">
+          <stringMessage>
+            Movement source:
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Order Number:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save Confirm
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblMovement">
+          <stringMessage>
+            Origen movimiento:
+          </stringMessage>
+        </label>
+        <label name="lblOrder">
+          <stringMessage>
+            Número de orden:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar confirmación
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvReprintLabelMaterialRejectedD.aspx">
+      <Idiom name="INGLES">
+        <label name="lblItem">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity:
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Warehouse:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblTotalQty">
+          <stringMessage>
+            Total Qty Rejected
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work Order
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Date
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Printed by
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Copy
+          </stringMessage>
+        </label>
+        <label name="btnPrint">
+          <stringMessage>
+            Print
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblItem">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lote:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Cantidad:
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Almacen:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblTotalQty">
+          <stringMessage>
+            Cant Total Devuelta
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Fecha
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Impreso por
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Copia
+          </stringMessage>
+        </label>
+        <label name="btnPrint">
+          <stringMessage>
+            Imprimir
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvMaterialRejected.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvItemRejectedReview.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvItemRejected.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvReprintLabelDmt.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work order:
+          </stringMessage>
+        </label>
+        <label name="lblSequence">
+          <stringMessage>
+            Sequence:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+
+        <label name="lblDefectiveMaterial">
+          <stringMessage>
+            DEFECTIVE MATERIAL TAG
+          </stringMessage>
+        </label>
+        <label name="lblDmtNumber">
+          <stringMessage>
+            DMT NUMBER
+          </stringMessage>
+        </label>
+        <label name="lblInhouse">
+          <stringMessage>
+            [ ] IN HOUSE REJECTION
+          </stringMessage>
+        </label>
+        <label name="lblPurchased">
+          <stringMessage>
+            [ ] PURCHASED MATERIAL
+          </stringMessage>
+        </label>
+        <label name="lblOperCom">
+          <stringMessage>
+            Last Oper Com.
+          </stringMessage>
+        </label>
+        <label name="lblProductCode">
+          <stringMessage>
+            Product Code
+          </stringMessage>
+        </label>
+        <label name="lblTotalQty">
+          <stringMessage>
+            Total Qty Rejected
+          </stringMessage>
+        </label>
+        <label name="lblProductDescription">
+          <stringMessage>
+            Product Description
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Date:
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Printed By
+          </stringMessage>
+        </label>
+        <label name="lblReason">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+        <label name="lblInternalMaterial">
+          <stringMessage>
+            Internal Mat Lot
+          </stringMessage>
+        </label>
+        <label name="btnPrint">
+          <stringMessage>
+            Print
+          </stringMessage>
+        </label>
+        <label name="lblValueDescripcion">
+          <stringMessage>
+            Description:
+          </stringMessage>
+        </label>
+        <label name="lblMachineTitle">
+          <stringMessage>
+            Machine
+          </stringMessage>
+        </label>
+
+        <label name="lblRejected">
+          <stringMessage>
+            Rejected
+          </stringMessage>
+        </label>
+        <label name="LblDisposition">
+          <stringMessage>
+            Disposition
+          </stringMessage>
+        </label>
+
+        <label name="lblComments">
+          <stringMessage>
+            Comments
+          </stringMessage>
+        </label>
+      </Idiom>
+
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo:
+          </stringMessage>
+        </label>
+        <label name="lblSequence">
+          <stringMessage>
+            Secuencia:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblDefectiveMaterial">
+          <stringMessage>
+            ETIQUETA DE MATERIAL DEFECTUOSO
+          </stringMessage>
+        </label>
+        <label name="lblDmtNumber">
+          <stringMessage>
+            NUMERO DMT
+          </stringMessage>
+        </label>
+        <label name="lblInhouse">
+          <stringMessage>
+            [ ] DEVOLUCIÓN INTERNA
+          </stringMessage>
+        </label>
+        <label name="lblPurchased">
+          <stringMessage>
+            [ ] MATERIAL COMPRADO
+          </stringMessage>
+        </label>
+        <label name="lblOperCom">
+          <stringMessage>
+            Ultima operación
+          </stringMessage>
+        </label>
+        <label name="lblProductCode">
+          <stringMessage>
+            Codigo de producto
+          </stringMessage>
+        </label>
+        <label name="lblTotalQty">
+          <stringMessage>
+            Cantidad total devuelta
+          </stringMessage>
+        </label>
+        <label name="lblProductDescription">
+          <stringMessage>
+            Descripción del producto
+          </stringMessage>
+        </label>
+        <label name="lblDate">
+          <stringMessage>
+            Fecha
+          </stringMessage>
+        </label>
+        <label name="lblPrintedBy">
+          <stringMessage>
+            Printed By
+          </stringMessage>
+        </label>
+        <label name="lblReason">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+        <label name="lblInternalMaterial">
+          <stringMessage>
+            Internal Mat Lot
+          </stringMessage>
+        </label>
+        <label name="btnPrint">
+          <stringMessage>
+            Print
+          </stringMessage>
+        </label>
+        <label name="lblValueDescripcion">
+          <stringMessage>
+            Descripcion
+          </stringMessage>
+        </label>
+        <label name="lblMachineTitle">
+          <stringMessage>
+            Maquina
+          </stringMessage>
+        </label>
+        <label name="lblRejected">
+          <stringMessage>
+            Rechazado
+          </stringMessage>
+        </label>
+        <label name="LblDisposition">
+          <stringMessage>
+            Disposition
+          </stringMessage>
+        </label>
+        <label name="lblComments">
+          <stringMessage>
+            Comentarios
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--///////////////////-->
+
+    <!--[InvLogistica Folder]-->
+    <Module name="whInvConfirmReceipt.aspx">
+      <Idiom name="INGLES">
+        <label name="lblNumeroOrden">
+          <stringMessage>
+            Pallet ID Number:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Production Order:
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="lblWareHouse">
+          <stringMessage>
+            Warehouse:"
+          </stringMessage>
+        </label>
+        <label name="lblTotal">
+          <stringMessage>
+            Total:
+          </stringMessage>
+        </label>
+        <label name="lblDelivered">
+          <stringMessage>
+            Delivered:
+          </stringMessage>
+        </label>
+        <label name="lblToReceive">
+          <stringMessage>
+            To Receive:
+          </stringMessage>
+        </label>
+        <label name="lblConfirmed">
+          <stringMessage>
+            Confirmed:
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblNumeroOrden">
+          <stringMessage>
+            Pallet ID Nº:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Orden de producción:
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="lblWareHouse">
+          <stringMessage>
+            Bodega:
+          </stringMessage>
+        </label>
+        <label name="lblTotal">
+          <stringMessage>
+            Total:
+          </stringMessage>
+        </label>
+        <label name="lblDelivered">
+          <stringMessage>
+            Entregado:
+          </stringMessage>
+        </label>
+        <label name="lblToReceive">
+          <stringMessage>
+            Por recibir:
+          </stringMessage>
+        </label>
+        <label name="lblConfirmed">
+          <stringMessage>
+            Confirmado:
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad:
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvSugUbicacion.aspx">
+      <Idiom name="INGLES">
+        <label name="lblNumeroOrden">
+          <stringMessage>
+            Order Production Number:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Production Order:
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Location:
+          </stringMessage>
+        </label>
+        <label name="lblWareHouse">
+          <stringMessage>
+            Warehouse:
+          </stringMessage>
+        </label>
+        <label name="lblLocation2">
+          <stringMessage>
+            Location:
+          </stringMessage>
+        </label>
+        <label name="lblPorAprobar">
+          <stringMessage>
+            To Approve:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity:
+          </stringMessage>
+        </label>
+        <label name="lblQuantityPLT">
+          <stringMessage>
+            Quantity in PLT:
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit:
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblNumeroOrden">
+          <stringMessage>
+            Orden de producción Nº:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Orden de producción:
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Ubicación:
+          </stringMessage>
+        </label>
+        <label name="lblWareHouse">
+          <stringMessage>
+            Bodega:
+          </stringMessage>
+        </label>
+        <label name="lblLocation2">
+          <stringMessage>
+            Ubicación:
+          </stringMessage>
+        </label>
+        <label name="lblPorAprobar">
+          <stringMessage>
+            Por aprobar:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Cantidad:
+          </stringMessage>
+        </label>
+        <label name="lblQuantityPLT">
+          <stringMessage>
+            Cantidad en PLT:
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad:
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvSugUbicacionConOrigen.aspx">
+      <Idiom name="INGLES">
+        <label name="lblOrigen">
+          <stringMessage>
+            Origin:
+          </stringMessage>
+        </label>
+        <label name="lblNumeroOrden">
+          <stringMessage>
+            Order Production Number:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Production Order:
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Item:
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Location:
+          </stringMessage>
+        </label>
+        <label name="lblWareHouse">
+          <stringMessage>
+            Warehouse:
+          </stringMessage>
+        </label>
+        <label name="lblLocation2">
+          <stringMessage>
+            Location:
+          </stringMessage>
+        </label>
+        <label name="lblPorAprobar">
+          <stringMessage>
+            To Approve:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity:
+          </stringMessage>
+        </label>
+        <label name="lblQuantityPLT">
+          <stringMessage>
+            Quantity in PLT:
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit:
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblOrigen">
+          <stringMessage>
+            Origen:
+          </stringMessage>
+        </label>
+        <label name="lblNumeroOrden">
+          <stringMessage>
+            Orden de producción Nº:
+          </stringMessage>
+        </label>
+        <label name="btnConsultar">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblOrden">
+          <stringMessage>
+            Orden de producción:
+          </stringMessage>
+        </label>
+        <label name="lblArticulo">
+          <stringMessage>
+            Articulo:
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Ubicación:
+          </stringMessage>
+        </label>
+        <label name="lblWareHouse">
+          <stringMessage>
+            Bodega:
+          </stringMessage>
+        </label>
+        <label name="lblLocation2">
+          <stringMessage>
+            Ubicación:
+          </stringMessage>
+        </label>
+        <label name="lblPorAprobar">
+          <stringMessage>
+            Por aprobar:
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Cantidad:
+          </stringMessage>
+        </label>
+        <label name="lblQuantityPLT">
+          <stringMessage>
+            Cantidad en PLT:
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad:
+          </stringMessage>
+        </label>
+        <label name="btnGuardar">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--///////////////////-->
+
+    <!--[InvTrans Folder]-->
+    <Module name="whInvGenerateUI.aspx">
+      <Idiom name="INGLES">
+        <label name="lblPagina">
+          <stringMessage>
+            External WH Transfer
+          </stringMessage>
+        </label>
+        <label name="lblOperator">
+          <stringMessage>
+            Operator
+          </stringMessage>
+        </label>
+        <label name="lblTruck">
+          <stringMessage>
+            Truck ID + Trailer ID
+          </stringMessage>
+        </label>
+        <label name="lblSource">
+          <stringMessage>
+            Source Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblDestination">
+          <stringMessage>
+            Destination Warehouse
+          </stringMessage>
+        </label>
+        <label name="btnGenerateUI">
+          <stringMessage>
+            GENERATE UNIQUE IDENTIFIER
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblPagina">
+          <stringMessage>
+            Transferencia WH Externa
+          </stringMessage>
+        </label>
+        <label name="lblOperator">
+          <stringMessage>
+            Operador
+          </stringMessage>
+        </label>
+        <label name="lblTruck">
+          <stringMessage>
+            ID Camión + ID Remolque
+          </stringMessage>
+        </label>
+        <label name="lblSource">
+          <stringMessage>
+            Bodega origen
+          </stringMessage>
+        </label>
+        <label name="lblDestination">
+          <stringMessage>
+            Bodega destino
+          </stringMessage>
+        </label>
+        <label name="btnGenerateUI">
+          <stringMessage>
+            GENERAR IDENTIFICADOR UNICO
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvLoadReceiveTruck.aspx">
+      <Idiom name="INGLES">
+        <label name="formularioLoad">
+          <stringMessage>
+            Load Truck
+          </stringMessage>
+        </label>
+        <label name="formularioReceive">
+          <stringMessage>
+            Receive Truck unload
+          </stringMessage>
+        </label>
+        <label name="lblScan">
+          <stringMessage>
+            Scan Unique ID
+          </stringMessage>
+        </label>
+        <label name="lblPallet">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Location
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="btnConfirmPalletLoad">
+          <stringMessage>
+            Confirm Pallet
+          </stringMessage>
+        </label>
+        <label name="btnConfirmPalletReceive">
+          <stringMessage>
+            Confirm Pallet
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="formularioLoad">
+          <stringMessage>
+            Cargar camión
+          </stringMessage>
+        </label>
+        <label name="formularioReceive">
+          <stringMessage>
+            Recibir carga de camión
+          </stringMessage>
+        </label>
+        <label name="lblScan">
+          <stringMessage>
+            Scanear ID Unico
+          </stringMessage>
+        </label>
+        <label name="lblPallet">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Ubicación
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="lblQuantity">
+          <stringMessage>
+            Cantidad
+          </stringMessage>
+        </label>
+        <label name="btnConfirmPalletLoad">
+          <stringMessage>
+            Confirmar Pallet
+          </stringMessage>
+        </label>
+        <label name="btnConfirmPalletReceive">
+          <stringMessage>
+            Confirmar Pallet
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvPrintUI.aspx">
+      <Idiom name="INGLES">
+        <label name="lblScan">
+          <stringMessage>
+            Scan Unique ID:
+          </stringMessage>
+        </label>
+        <label name="btnPrint">
+          <stringMessage>
+            PRINT
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblScan">
+          <stringMessage>
+            Scanear ID Unico:
+          </stringMessage>
+        </label>
+        <label name="btnPrint">
+          <stringMessage>
+            IMPRIMIR
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvSupervisorTruck.aspx">
+      <Idiom name="INGLES">
+        <label name="lblNameForm">
+          <stringMessage>
+            UNIQUE ID
+          </stringMessage>
+        </label>
+        <label name="lblScan">
+          <stringMessage>
+            Scan Unique ID
+          </stringMessage>
+        </label>
+        <label name="grdPallet">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="grdItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="grdLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="grdQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="grdLocation">
+          <stringMessage>
+            Location
+          </stringMessage>
+        </label>
+        <label name="btnEndPicking">
+          <stringMessage>
+            End Picking
+          </stringMessage>
+        </label>
+        <label name="btnEndReceipt">
+          <stringMessage>
+            End Receipt
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblNameForm">
+          <stringMessage>
+            ID UNICO
+          </stringMessage>
+        </label>
+        <label name="lblScan">
+          <stringMessage>
+            Scanear ID Unico
+          </stringMessage>
+        </label>
+        <label name="grdPallet">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="grdItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="grdLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="grdQuantity">
+          <stringMessage>
+            Cantidad
+          </stringMessage>
+        </label>
+        <label name="grdLocation">
+          <stringMessage>
+            Ubicación
+          </stringMessage>
+        </label>
+        <label name="btnEndPicking">
+          <stringMessage>
+            Finalizar Recolección
+          </stringMessage>
+        </label>
+        <label name="btnEndReceipt">
+          <stringMessage>
+            Finalizar Recepción
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--///////////////////-->
+
+    <!--[Archivos Folder]-->
+    <Module name="whInvOpenFiles.aspx">
+      <Idiom name="INGLES">
+        <label name="lblMachine">
+          <stringMessage>
+            Machine:
+          </stringMessage>
+        </label>
+        <label name="btnChangeMac">
+          <stringMessage>
+            Change Machine
+          </stringMessage>
+        </label>
+        <label name="lblDirectory">
+          <stringMessage>
+            Directory
+          </stringMessage>
+        </label>
+        <label name="btnChangeDir">
+          <stringMessage>
+            Change Directory
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Open Machine File
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina:
+          </stringMessage>
+        </label>
+        <label name="btnChangeMac">
+          <stringMessage>
+            Cambiar Maquina
+          </stringMessage>
+        </label>
+        <label name="lblDirectory">
+          <stringMessage>
+            Directorio
+          </stringMessage>
+        </label>
+        <label name="btnChangeDir">
+          <stringMessage>
+            Cambiar directorio
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Abrir archivo de maquina
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--///////////////////-->
+
+    <!--[Balance Folder]-->
+    <Module name="whInvConfirmedRegrind.aspx">
+      <Idiom name="INGLES">
+        <label name="lblRegrind">
+          <stringMessage>
+            Regrind Sequence
+          </stringMessage>
+        </label>
+        <label name="btnQuery">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblDescWorkOrder">
+          <stringMessage>
+            Work Order
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblDescRegrindCode">
+          <stringMessage>
+            Regrind Code
+          </stringMessage>
+        </label>
+        <label name="lblQuantityConfirm">
+          <stringMessage>
+            Quantity to confirm
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblRegrind">
+          <stringMessage>
+            Secuencia de molido
+          </stringMessage>
+        </label>
+        <label name="btnQuery">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblDescWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="lblDescRegrindCode">
+          <stringMessage>
+            Codigo de molido
+          </stringMessage>
+        </label>
+        <label name="lblQuantityConfirm">
+          <stringMessage>
+            Cantidad a confirmar
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvLabel.aspx?Regrind">
+      <Idiom name="INGLES">
+        <label name="lblMachine">
+          <stringMessage>
+            Machine
+          </stringMessage>
+        </label>
+        <label name="lblWeight">
+          <stringMessage>
+            Weight
+          </stringMessage>
+        </label>
+        <label name="lblMaxPosition">
+          <stringMessage>
+            *Maximum 4 decimal positions
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina
+          </stringMessage>
+        </label>
+        <label name="lblWeight">
+          <stringMessage>
+            Peso
+          </stringMessage>
+        </label>
+        <label name="lblMaxPosition">
+          <stringMessage>
+            *Max 4 posiciones decimales
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvLabel.aspx">
+      <Idiom name="INGLES">
+        <label name="lblMachine">
+          <stringMessage>
+            Machine
+          </stringMessage>
+        </label>
+        <label name="Pleaseselectrollwinder">
+          <stringMessage>
+            Please select roll winder
+          </stringMessage>
+        </label>
+        <label name="lblWeight">
+          <stringMessage>
+            Weight
+          </stringMessage>
+        </label>
+        <label name="lblMaxPosition">
+          <stringMessage>
+            *Maximum 4 decimal positions
+          </stringMessage>
+        </label>
+        <label name="lblRollWinder">
+          <stringMessage>
+            Roll Winder
+          </stringMessage>
+        </label>
+        <label name="lblTRollWinder">
+          <stringMessage>
+            Roll Winder
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina
+          </stringMessage>
+        </label>
+        <label name="lblWeight">
+          <stringMessage>
+            Peso
+          </stringMessage>
+        </label>
+        <label name="lblRollWinder">
+          <stringMessage>
+            Roll Winder
+          </stringMessage>
+        </label>
+        <label name="lblTRollWinder">
+          <stringMessage>
+            Roll Winder
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvLabelRegrind.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work Order
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblRegrind">
+          <stringMessage>
+            Regrind
+          </stringMessage>
+        </label>
+        <label name="lblToIssue">
+          <stringMessage>
+            Weight
+          </stringMessage>
+        </label>
+        <label name="lblMaxDigits">
+          <stringMessage>
+            *Maximum 4 digits on decimal positions
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Remember 9 characters
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Work Order is required
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Order doesn't exist or don´t have items
+          </stringMessage>
+        </label>
+        <label name="regularQuantity">
+          <stringMessage>
+            Only numbers allowed and Quantity must be greater than zero
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblRegrind">
+          <stringMessage>
+            Moler
+          </stringMessage>
+        </label>
+        <label name="lblToIssue">
+          <stringMessage>
+            Peso
+          </stringMessage>
+        </label>
+        <label name="lblMaxDigits">
+          <stringMessage>
+            *Maximo 4 digitos decimales
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Recuerde, solo 9 caracteres.
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Orden de trabajo es obligatoria.
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Orden no existe o no tiene articulos
+          </stringMessage>
+        </label>
+        <label name="regularQuantity">
+          <stringMessage>
+            Solo son permitidos numeros y cantidades mayores a cero
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvLabelRegrindm.aspx">
+      <Idiom name="INGLES">
+        <label name="lblMachine">
+          <stringMessage>
+            Machine
+          </stringMessage>
+        </label>
+        <label name="lblRegrind">
+          <stringMessage>
+            Regrind
+          </stringMessage>
+        </label>
+        <label name="lblToIssue">
+          <stringMessage>
+            Weight
+          </stringMessage>
+        </label>
+        <label name="lblMaxDigits">
+          <stringMessage>
+            *Maximum 4 digits on decimal positions
+          </stringMessage>
+        </label>
+        <label name="btnChangeMac">
+          <stringMessage>
+            Change Machine
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina
+          </stringMessage>
+        </label>
+        <label name="lblRegrind">
+          <stringMessage>
+            Moler
+          </stringMessage>
+        </label>
+        <label name="lblToIssue">
+          <stringMessage>
+            Peso
+          </stringMessage>
+        </label>
+        <label name="lblMaxDigits">
+          <stringMessage>
+            *Maximo 4 digitos decimales
+          </stringMessage>
+        </label>
+        <label name="btnChangeMac">
+          <stringMessage>
+            Cambiar Maquina
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvLocatedRegrind.aspx">
+      <Idiom name="INGLES">
+        <label name="lblDescRegrindSequence">
+          <stringMessage>
+            Regrind Sequence
+          </stringMessage>
+        </label>
+        <label name="btnQuery">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="lblDescWorkOrder">
+          <stringMessage>
+            Work Order
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblDescRegrindCode">
+          <stringMessage>
+            Regrind Code
+          </stringMessage>
+        </label>
+        <label name="lblQuantityConfirm">
+          <stringMessage>
+            Quantity to confirm
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Location
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblDescRegrindSequence">
+          <stringMessage>
+            Secuencia de molido
+          </stringMessage>
+        </label>
+        <label name="btnQuery">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="lblDescWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="lblWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="lblDescRegrindCode">
+          <stringMessage>
+            Codigo de molido
+          </stringMessage>
+        </label>
+        <label name="lblQuantityConfirm">
+          <stringMessage>
+            Cantidad a confirmar
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Ubicación
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvReprintLabelRegrind.aspx">
+      <Idiom name="INGLES">
+        <label name="lblRegrind">
+          <stringMessage>
+            Regrind Sequence
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Continue
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblRegrind">
+          <stringMessage>
+            Secuencia de molido
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Continuar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--///////////////////-->
+
+    <!--[Inventarios Folder]-->
+    <Module name="whInvInventory.aspx">
+      <Idiom name="INGLES">
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Location
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Qty Count:
+          </stringMessage>
+        </label>
+        <label name="lblMaximumDigits">
+          <stringMessage>
+            *Maximum 4 digits on decimal positions
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit:
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+        <label name="btnContinue">
+          <stringMessage>
+            Continue
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Ubicación
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Cant contada:
+          </stringMessage>
+        </label>
+        <label name="lblMaximumDigits">
+          <stringMessage>
+            *Maximo 4 digitos decimales
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad:
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+        <label name="btnContinue">
+          <stringMessage>
+            Continue
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvInventoryfp.aspx">
+      <Idiom name="INGLES">
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Location
+          </stringMessage>
+        </label>
+        <label name="lblDescItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Qty Count:
+          </stringMessage>
+        </label>
+        <label name="lblMaximumDigits">
+          <stringMessage>
+            *Maximum 4 digits on decimal positions
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit:
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="lblLocation">
+          <stringMessage>
+            Ubicación
+          </stringMessage>
+        </label>
+        <label name="lblDescItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Cant contada:
+          </stringMessage>
+        </label>
+        <label name="lblMaximumDigits">
+          <stringMessage>
+            *Maximo 4 digitos decimales
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad:
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvInventoryNoLocations.aspx">
+      <Idiom name="INGLES">
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Qty Count:
+          </stringMessage>
+        </label>
+        <label name="lblMaximumDigits">
+          <stringMessage>
+            *Maximum 4 digits on decimal positions
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unit:
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="lblQty">
+          <stringMessage>
+            Cant contada:
+          </stringMessage>
+        </label>
+        <label name="lblMaximumDigits">
+          <stringMessage>
+            *Maximo 4 digitos decimales
+          </stringMessage>
+        </label>
+        <label name="lblUnit">
+          <stringMessage>
+            Unidad:
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--///////////////////-->
+
+    <!--[InvMaterial Folder]-->
+    <Module name="whInvMaterialDevolReprintLabel.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work Order
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Remember 9 characters
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Work Order is required
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Order doesn't exist or the status is active, release or completed.
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Position
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="headReturnQty">
+          <stringMessage>
+            Return Qty
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lot Code
+          </stringMessage>
+        </label>
+        <!--Smita Begins -->
+        <label name="headPallet">
+          <stringMessage>
+            Pallet Id
+          </stringMessage>
+        </label>
+        <!--Smita Ends -->
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Posición
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="headReturnQty">
+          <stringMessage>
+            Cant. devuelta
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Codigo Lote
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Recuerde, solo 9 caracteres.
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Orden de trabajo es obligatoria.
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Orden no existe o su estado es activo, liberado o completado.
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvMaterialDevolution.aspx">
+      <Idiom name="INGLES">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work Order
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Return Material
+          </stringMessage>
+        </label>
+        <label name="printLabel">
+          <stringMessage>
+            Print Return Tag
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Remember 9 characters
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Work Order is required
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Order doesn't exist or don´t have items
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Position
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="headActualQty">
+          <stringMessage>
+            ACtual Qty
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="headToReturn">
+          <stringMessage>
+            To Return
+          </stringMessage>
+        </label>
+        <label name="headToLot">
+          <stringMessage>
+            To Lot
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="RecordswithoutIDpallet">
+          <stringMessage>
+            Records without ID pallet
+          </stringMessage>
+        </label>
+        <label name="PalletIDdoesntexists">
+          <stringMessage>
+            Pallet ID doesn't exists
+          </stringMessage>
+        </label>
+        <label name="Returnedquantityhigherthanpalletsize">
+          <stringMessage>
+            Returned quantity higher than pallet size
+          </stringMessage>
+        </label>
+        <label name="QuantitytoreturnmustbeequalorlessthanPalletIDquantityforpalletId">
+          <stringMessage>
+            Quantity to return must be equal or less than Pallet ID quantity for palletId
+          </stringMessage>
+        </label>
+        <label name="PalletIDstatusdoesntallowreturn">
+          <stringMessage>
+            Pallet ID status doesn´t allow return.
+          </stringMessage>
+        </label>
+        <label name="Theamounttoreturnisinvalid">
+          <stringMessage>
+            The amount to return is invalid
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar Articulos
+          </stringMessage>
+        </label>
+        <label name="printLabel">
+          <stringMessage>
+            Imp Etiquetas Devol
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Recuerde, 9 caracteres
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Orden de trabajo es obligatoria
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Orden no existe o no tiene articulos
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Posición
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="headActualQty">
+          <stringMessage>
+            Cant actual
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="headToReturn">
+          <stringMessage>
+            Para devolver
+          </stringMessage>
+        </label>
+        <label name="headToLot">
+          <stringMessage>
+            Para lote
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <Module name="whInvMaterialDevolutionConfirm.aspx">
+      <Idiom name="INGLES">
+        <!--Smita Begins -->
+        <label name="lblPalletId">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <label name="headPalletID">
+          <stringMessage>
+            Pallet ID
+          </stringMessage>
+        </label>
+        <!--Smita Ends -->
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Work Order
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save Items
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Remember 9 characters
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Work Order is required
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Order doesn't exist or don´t have items
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Position
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lot Code
+          </stringMessage>
+        </label>
+        <label name="headReturnQty">
+          <stringMessage>
+            Return Qty
+          </stringMessage>
+        </label>
+        <label name="headConfirmed">
+          <stringMessage>
+            Confirmed
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblWorkOrder">
+          <stringMessage>
+            Orden de trabajo
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar Articulos
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Recuerde, solo 9 caracteres.
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Orden de trabajo es obligatoria.
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Orden no existe o no tiene articulos.
+          </stringMessage>
+        </label>
+        <label name="headPosition">
+          <stringMessage>
+            Posición
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="headReturnQty">
+          <stringMessage>
+            Cant. devuelta
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Codigo Lote
+          </stringMessage>
+        </label>
+        <label name="headConfirmed">
+          <stringMessage>
+            Confirmado
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <Module name="whInvMaterialPlasticBoxesTracker.aspx">
+      <Idiom name="INGLES">
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblType">
+          <stringMessage>
+            Type
+          </stringMessage>
+        </label>
+        <label name="lblBarCodeID">
+          <stringMessage>
+            Bar Code ID
+          </stringMessage>
+        </label>
+        <label name="btnContinue">
+          <stringMessage>
+            Continue
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblType">
+          <stringMessage>
+            Tipo
+          </stringMessage>
+        </label>
+        <label name="lblBarCodeID">
+          <stringMessage>
+            ID Codigo de barras
+          </stringMessage>
+        </label>
+        <label name="btnContinue">
+          <stringMessage>
+            Continuar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvMaterialPlasticReturnBoxesTracker.aspx">
+      <Idiom name="INGLES">
+        <label name="lblCover">
+          <stringMessage>
+            Covers:
+          </stringMessage>
+        </label>
+        <label name="lblMaster1">
+          <stringMessage>
+            Master 1:
+          </stringMessage>
+        </label>
+        <label name="lblMaster2">
+          <stringMessage>
+            Master 2:
+          </stringMessage>
+        </label>
+        <label name="lblMaster3">
+          <stringMessage>
+            Master 3:
+          </stringMessage>
+        </label>
+        <label name="lblBox">
+          <stringMessage>
+            Boxes:
+          </stringMessage>
+        </label>
+        <label name="btnContinue">
+          <stringMessage>
+            Continue
+          </stringMessage>
+        </label>
+        <label name="lblBarCode">
+          <stringMessage>
+            Bar Code
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="lblDescQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblCover">
+          <stringMessage>
+            Tapas:
+          </stringMessage>
+        </label>
+        <label name="lblMaster1">
+          <stringMessage>
+            Master 1:
+          </stringMessage>
+        </label>
+        <label name="lblMaster2">
+          <stringMessage>
+            Master 2:
+          </stringMessage>
+        </label>
+        <label name="lblMaster3">
+          <stringMessage>
+            Master 3:
+          </stringMessage>
+        </label>
+        <label name="lblBox">
+          <stringMessage>
+            Cajas:
+          </stringMessage>
+        </label>
+        <label name="btnContinue">
+          <stringMessage>
+            Continuar
+          </stringMessage>
+        </label>
+        <label name="lblBarCode">
+          <stringMessage>
+            Codigo de barras
+          </stringMessage>
+        </label>
+        <label name="lblItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="lblDescQuantity">
+          <stringMessage>
+            Cantidad
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvMaterialPlasticUsedBoxesTracker.aspx">
+      <Idiom name="INGLES">
+        <label name="lblMachine">
+          <stringMessage>
+            Machine:
+          </stringMessage>
+        </label>
+        <label name="lblIdentifier">
+          <stringMessage>
+            Identifier
+          </stringMessage>
+        </label>
+        <label name="btnContinue">
+          <stringMessage>
+            Continue
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblMachine">
+          <stringMessage>
+            Maquina:
+          </stringMessage>
+        </label>
+        <label name="lblIdentifier">
+          <stringMessage>
+            Identificador
+          </stringMessage>
+        </label>
+        <label name="btnContinue">
+          <stringMessage>
+            Continuar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvMaterialRejectedD.aspx">
+      <Idiom name="INGLES">
+
+        <label name="lblItemError">
+          <stringMessage>
+            The item does not exist
+          </stringMessage>
+        </label>
+
+        <label name="lblLotError">
+          <stringMessage>
+            The lot does not exist
+          </stringMessage>
+        </label>
+
+        <label name="lblReasoNull">
+          <stringMessage>
+            The reason cannot be null.
+          </stringMessage>
+        </label>
+
+        <label name="lblFactorNull">
+          <stringMessage>
+            The conversion factor cannot be null.
+          </stringMessage>
+        </label>
+
+        <label name="lblDescItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblDescLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lot
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="printLabel">
+          <stringMessage>
+            Print Tag
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Save Items
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Warehouse
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="headActualQty">
+          <stringMessage>
+            ACtual Qty
+          </stringMessage>
+        </label>
+        <label name="headToReturn">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="headDisposition">
+          <stringMessage>
+            Disposition
+          </stringMessage>
+        </label>
+        <label name="headReason">
+          <stringMessage>
+            Reason
+          </stringMessage>
+        </label>
+        <label name="headSupplier">
+          <stringMessage>
+            Suppplier
+          </stringMessage>
+        </label>
+        <label name="headStock">
+          <stringMessage>
+            Stock Warehouse
+          </stringMessage>
+        </label>
+        <label name="headRegrind">
+          <stringMessage>
+            Regrind Item
+          </stringMessage>
+        </label>
+        <label name="headComments">
+          <stringMessage>
+            Comments
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblItemError">
+          <stringMessage>
+            El item no existe
+          </stringMessage>
+        </label>
+
+        <label name="lblLotError">
+          <stringMessage>
+            El lote no existe
+          </stringMessage>
+        </label>
+        <label name="lblReasoNull">
+          <stringMessage>
+            LA razon no puede ser nula.
+          </stringMessage>
+        </label>
+        <label name="lblFactorNull">
+          <stringMessage>
+            El usuario no tiene definido almacen MRB.
+          </stringMessage>
+        </label>
+
+        <label name="lblDescItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblDescLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Lote
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="printLabel">
+          <stringMessage>
+            Imprimir etiqueta
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar Articulos
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="headWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="headActualQty">
+          <stringMessage>
+            Cant actual
+          </stringMessage>
+        </label>
+        <label name="headToReturn">
+          <stringMessage>
+            Cantidad
+          </stringMessage>
+        </label>
+        <label name="headDisposition">
+          <stringMessage>
+            Disposición
+          </stringMessage>
+        </label>
+        <label name="headReason">
+          <stringMessage>
+            Razón
+          </stringMessage>
+        </label>
+        <label name="headSupplier">
+          <stringMessage>
+            Proveedor
+          </stringMessage>
+        </label>
+        <label name="headStock">
+          <stringMessage>
+            Inventario en almacen
+          </stringMessage>
+        </label>
+        <label name="headRegrind">
+          <stringMessage>
+            Articulo molido
+          </stringMessage>
+        </label>
+        <label name="headComments">
+          <stringMessage>
+            Observaciones
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvMaterialTakePrintLabel.aspx">
+      <Idiom name="INGLES">
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            WareHouse
+          </stringMessage>
+        </label>
+        <label name="lblDescZone">
+          <stringMessage>
+            Zone
+          </stringMessage>
+        </label>
+        <label name="lblDescItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblDescLotCode">
+          <stringMessage>
+            Lot Code
+          </stringMessage>
+        </label>
+        <label name="lblDescQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Print
+          </stringMessage>
+        </label>
+        <label name="regularQuantity">
+          <stringMessage>
+            Only numbers allowed and Quantity must be greater than zero
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="lblDescZone">
+          <stringMessage>
+            Zona
+          </stringMessage>
+        </label>
+        <label name="lblDescItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblDescLotCode">
+          <stringMessage>
+            Codigo lote
+          </stringMessage>
+        </label>
+        <label name="lblDescQuantity">
+          <stringMessage>
+            Cantidad
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Imprimir
+          </stringMessage>
+        </label>
+        <label name="regularQuantity">
+          <stringMessage>
+            Solo son permitidos numeros y cantidades mayores a cero
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvMaterialTakeRegister.aspx">
+      <Idiom name="INGLES">
+        <label name="lblZoneCode">
+          <stringMessage>
+            Enter Zone Code
+          </stringMessage>
+        </label>
+        <label name="btnSearchZone">
+          <stringMessage>
+            Search Zone
+          </stringMessage>
+        </label>
+        <label name="lblId">
+          <stringMessage>
+            Label Id
+          </stringMessage>
+        </label>
+        <label name="btnSearch">
+          <stringMessage>
+            Search
+          </stringMessage>
+        </label>
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            WareHouse
+          </stringMessage>
+        </label>
+        <label name="lblDescItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="lblDescLotCode">
+          <stringMessage>
+            Lot Code
+          </stringMessage>
+        </label>
+        <label name="lblDescQuantity">
+          <stringMessage>
+            Quantity
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+        <label name="regularQuantity">
+          <stringMessage>
+            Only numbers allowed and Quantity must be greater than zero
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblZoneCode">
+          <stringMessage>
+            Ingrese codigo de zona
+          </stringMessage>
+        </label>
+        <label name="btnSearchZone">
+          <stringMessage>
+            Buscar zona
+          </stringMessage>
+        </label>
+        <label name="lblId">
+          <stringMessage>
+            Id etiqueta
+          </stringMessage>
+        </label>
+        <label name="btnSearch">
+          <stringMessage>
+            Buscar
+          </stringMessage>
+        </label>
+        <label name="lblDescWarehouse">
+          <stringMessage>
+            Almacen
+          </stringMessage>
+        </label>
+        <label name="lblDescItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="lblDescLotCode">
+          <stringMessage>
+            Codigo del lote
+          </stringMessage>
+        </label>
+        <label name="lblDescQuantity">
+          <stringMessage>
+            Cantidad
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+        <label name="regularQuantity">
+          <stringMessage>
+            Solo son permitidos numeros y cantidades mayores a cero
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvWrapRegrindValidation.aspx">
+      <Idiom name="INGLES">
+        <label name="Therecordhasbeenupdatedsuccessfully">
+          <stringMessage>
+            The record has been updated successfully
+          </stringMessage>
+        </label>
+        <label name="lblDescRegrind">
+          <stringMessage>
+            Regrind Sequence
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="Therecordhasbeenupdatedsuccessfully">
+          <stringMessage>
+            The record has been updated successfully
+          </stringMessage>
+        </label>
+        <label name="lblDescRegrind">
+          <stringMessage>
+            Secuencia de molido
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <Module name="whInvWrapValidation.aspx">
+      <Idiom name="INGLES">
+        <label name="lblDescPalletId">
+          <stringMessage>
+            Pallet Id
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Save
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblDescPalletId">
+          <stringMessage>
+            Id Pallet
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Guardar
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--///////////////////-->
+
+    <!--[LineClearence Folder]-->
+    <Module name="whInvLineClearance.aspx">
+      <Idiom name="INGLES">
+        <label name="lblDescWorkOrder">
+          <stringMessage>
+            Work Order's
+          </stringMessage>
+        </label>
+        <label name="lblDescFrom">
+          <stringMessage>
+            From
+          </stringMessage>
+        </label>
+        <label name="lblDescTo">
+          <stringMessage>
+            To
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Transfer Material
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Query
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Item
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Description
+          </stringMessage>
+        </label>
+        <label name="headActualQty">
+          <stringMessage>
+            ACtual Qty
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unit
+          </stringMessage>
+        </label>
+        <label name="headQuantity">
+          <stringMessage>
+            Quantity to Line Clearance WH
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            To Lot
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Remember 9 characters
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Work Order is required
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Order doesn't exist or the status is active, release or completed.
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="lblDescWorkOrder">
+          <stringMessage>
+            Ordenes de trabajo
+          </stringMessage>
+        </label>
+        <label name="lblDescFrom">
+          <stringMessage>
+            Origen
+          </stringMessage>
+        </label>
+        <label name="lblDescTo">
+          <stringMessage>
+            Para
+          </stringMessage>
+        </label>
+        <label name="btnSave">
+          <stringMessage>
+            Guardar Articulos
+          </stringMessage>
+        </label>
+        <label name="btnSend">
+          <stringMessage>
+            Consultar
+          </stringMessage>
+        </label>
+        <label name="headItem">
+          <stringMessage>
+            Articulo
+          </stringMessage>
+        </label>
+        <label name="headDescription">
+          <stringMessage>
+            Descripción
+          </stringMessage>
+        </label>
+        <label name="headActualQty">
+          <stringMessage>
+            Cant actual
+          </stringMessage>
+        </label>
+        <label name="headUnit">
+          <stringMessage>
+            Unidad
+          </stringMessage>
+        </label>
+        <label name="headQuantity">
+          <stringMessage>
+            Cantidad para linea de despeje
+          </stringMessage>
+        </label>
+        <label name="headLot">
+          <stringMessage>
+            Para lote
+          </stringMessage>
+        </label>
+        <label name="regularWorkOrder">
+          <stringMessage>
+            Recuerde, solo 9 caracteres.
+          </stringMessage>
+        </label>
+        <label name="requiredWorkOrder">
+          <stringMessage>
+            Orden de trabajo es obligatoria.
+          </stringMessage>
+        </label>
+        <label name="customWorkOrder">
+          <stringMessage>
+            Orden no existe o su estado es activo, liberado o completado.
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+    <!--///////////////////-->
+    <Module name="InventoryTakingByPalletIDWarehousesNotControlledByLocation.aspx">
+      <Idiom name="INGLES">
+        <label name="CountWarehouseNotDefined">
+          <stringMessage>
+            Warehouse doesn't have defined the count number
+          </stringMessage>
+        </label>
+        <label name="Zonecodedoesntexist">
+          <stringMessage>
+            Zone code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="ThepaletteIDdoesnotexistorisnotlocated">
+          <stringMessage>
+            The pallet ID does not exist or is not located
+          </stringMessage>
+        </label>
+        <label name="Lotcodedoesntexist">
+          <stringMessage>
+            Lot code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Locationblockedinbound">
+          <stringMessage>
+            Location blocked inbound
+          </stringMessage>
+        </label>
+        <label name="Locationcodedoesntexist">
+          <stringMessage>
+            Location code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Registeredquantitycannotbelessthanorequaltozero">
+          <stringMessage>
+            Registered quantity cannot be less than or equal to zero
+          </stringMessage>
+        </label>
+        <label name="Warehousecodedoesntexist">
+          <stringMessage>
+            Warehouse code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Warehousenotequalzone">
+          <stringMessage>
+            Warehouse code not equal warehouse zone
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="CountWarehouseNotDefined">
+          <stringMessage>
+            La bodega no tiene definido el número de conteo
+          </stringMessage>
+        </label>
+        <label name="Zonecodedoesntexist">
+          <stringMessage>
+            Zone code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="ThepaletteIDdoesnotexistorisnotlocated">
+          <stringMessage>
+            The pallet ID does not exist or is not located
+          </stringMessage>
+        </label>
+        <label name="Lotcodedoesntexist">
+          <stringMessage>
+            Lot code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Locationblockedinbound">
+          <stringMessage>
+            Location blocked inbound
+          </stringMessage>
+        </label>
+        <label name="Locationcodedoesntexist">
+          <stringMessage>
+            Location code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Registeredquantitycannotbelessthanorequaltozero">
+          <stringMessage>
+            Registered quantity cannot be less than or equal to zero
+          </stringMessage>
+        </label>
+        <label name="Warehousecodedoesntexist">
+          <stringMessage>
+            Warehouse code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Warehousenotequalzone">
+          <stringMessage>
+            Codigo de Bodega no igual a la bodega de la zona
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>
+
+    <!--<Module name="InventoryTakingByPalletIDWarehousesNotControlledByLocation.aspx">
+      <Idiom name="INGLES">
+        <label name="PalletIDdoesntexist">
+          <stringMessage>
+            Pallet ID doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="ItemcodeisnotPurchaseType">
+          <stringMessage>
+            Item code is not Purchase Type
+          </stringMessage>
+        </label>
+        <label name="Itemcodedoesntexist">
+          <stringMessage>
+            Item code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Lotcodedoesntexist">
+          <stringMessage>
+            Lot code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Warehousecodedoesntexist">
+          <stringMessage>
+            Warehouse code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Locationblockedinbound">
+          <stringMessage>
+            Location blocked inbound
+          </stringMessage>
+        </label>
+        <label name="Locationcodedoesntexist">
+          <stringMessage>
+            Location code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="RegisteredquantitynotavilableonBaaninventory">
+          <stringMessage>
+            Registered quantity not avilable on Baan inventory
+          </stringMessage>
+        </label>
+      </Idiom>
+      <Idiom name="ESPAÑOL">
+        <label name="PalletIDdoesntexist">
+          <stringMessage>
+            Pallet ID doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="ItemcodeisnotPurchaseType">
+          <stringMessage>
+            Item code is not Purchase Type
+          </stringMessage>
+        </label>
+        <label name="Itemcodedoesntexist">
+          <stringMessage>
+            Item code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Lotcodedoesntexist">
+          <stringMessage>
+            Lot code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Warehousecodedoesntexist">
+          <stringMessage>
+            Warehouse code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="Locationblockedinbound">
+          <stringMessage>
+            Location blocked inbound
+          </stringMessage>
+        </label>
+        <label name="Locationcodedoesntexist">
+          <stringMessage>
+            Location code doesn´t exist
+          </stringMessage>
+        </label>
+        <label name="RegisteredquantitynotavilableonBaaninventory">
+          <stringMessage>
+            Registered quantity not avilable on Baan inventory
+          </stringMessage>
+        </label>
+      </Idiom>
+    </Module>-->
+  </Modules>
+</LabelsResources>

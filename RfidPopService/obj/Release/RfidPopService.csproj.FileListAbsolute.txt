@@ -1,0 +1,12 @@
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\bin\RfidPopService.dll.config
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\bin\RfidPopService.dll
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\bin\RfidPopService.pdb
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\bin\Dal.dll
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\bin\Entities.dll
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\bin\Utilities.dll
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\bin\Dal.pdb
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\bin\Entities.pdb
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\bin\Utilities.pdb
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\obj\Release\RfidPopService.csprojResolveAssemblyReference.cache
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\obj\Release\RfidPopService.dll
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\RfidPopService\obj\Release\RfidPopService.pdb

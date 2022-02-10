@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DALResources>
+  <Modules>
+    <Module name="Service1">
+      <operationName name="ProWhcol133Ora">
+        <stringSQL>
+          INSERT INTO BAAN.TWHCOL133140 VALUES(
+          '[:T$PAID]',
+          '[:T$RFID]',
+          '[:T$EVNT]',
+          '[:T$ORNO]',
+          (SYSDATE -5/24),
+          '[:T$LOGN]',
+          '[:T$PROC]',
+          '0',
+          '0')
+        </stringSQL>
+      </operationName>
+      <operationName name="SelectWhcol133Ss">
+        <stringSQL>
+          SELECT TOP 1 [PAID],[RFID],[EVNT],[ORNO],[DATE],[LOGN],[PROC]FROM [RFID_RV].[dbo].[whcol133] WHERE [PAID] = '' ORDER BY [DATE] ASC
+        </stringSQL>
+      </operationName>
+      <operationName name="UpdateWhcol133Ss">
+        <stringSQL>
+          UPDATE [RFID_RV].[dbo].[whcol133] set " +
+          [PAID]='[:PAID]'," +
+          [RFID]='[:RFID]'," +
+          [EVNT]='[:EVNT]'," +
+          [ORNO]='[:ORNO]'," +
+          [DATE]='[:DATE]'," +
+          [LOGN]='[:LOGN]'," +
+          [PROC]='Si' " +
+          WHERE RFID = '[:RFID]'";
+        </stringSQL>
+      </operationName>
+      <!--End of new developing-->
+    </Module>
+  </Modules>
+</DALResources>

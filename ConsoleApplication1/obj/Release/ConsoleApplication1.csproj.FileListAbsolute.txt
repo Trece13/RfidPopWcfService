@@ -1,0 +1,6 @@
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\obj\Release\ConsoleApplication1.csprojResolveAssemblyReference.cache
