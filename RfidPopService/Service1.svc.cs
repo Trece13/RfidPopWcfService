@@ -215,6 +215,7 @@ namespace RfidPopService
                                 "[ORNO]='" + ORNO + "'," +
                                 "[PROC]='Si' " +
                                 "WHERE RFID = '" + RFID.Trim() + "'" +
+                                "AND EVNT = '" + EVNT.Trim() + "'" +
                                 "AND [PROC] ='No'";
                 log.Write(strSentencia, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                 DataTable dtSS2 = Dal.BaseDALSS.BaseDalSS.EjecutarCrud(strSentencia);
@@ -608,7 +609,7 @@ namespace RfidPopService
                                     if (upd080)
                                     {
                                         log.Write("upd080 == " + upd080, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
-                                        bool upd133ss = Update133ss(Dt131.Rows[0]["T$PAID"].ToString(), RFID, "", Dt011.Rows[0]["T$PDNO"].ToString(), "", "", "", "", "");
+                                        bool upd133ss = Update133ss(Dt131.Rows[0]["T$PAID"].ToString(), RFID, EVNT, Dt011.Rows[0]["T$PDNO"].ToString(), "", "", "", "", "");
                                         if (upd133ss)
                                         {
                                             log.Write("upd133ss == " + upd133ss, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
@@ -635,7 +636,7 @@ namespace RfidPopService
                                     if (ins080)
                                     {
                                         log.Write("ins080 == " + ins080, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
-                                        bool upd133ss = Update133ss(Dt131.Rows[0]["T$PAID"].ToString(), RFID, "", Dt011.Rows[0]["T$PDNO"].ToString(), "", "", "", "", "");
+                                        bool upd133ss = Update133ss(Dt131.Rows[0]["T$PAID"].ToString(), RFID, EVNT, Dt011.Rows[0]["T$PDNO"].ToString(), "", "", "", "", "");
                                         if (upd133ss)
                                         {
                                             log.Write("upd133ss == " + upd133ss, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
@@ -707,7 +708,7 @@ namespace RfidPopService
                         log.Write(string.Format("I020 =={0};I022=={1};I222=={2}:", I020, I022, I222) + MaxSec, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                         if (I020 && I022 && I222)
                         {
-                            bool upd133ss = Update133ss(Dt011.Rows[0]["T$PDNO"].ToString().Trim() + "-" + NewMaxSec, RFID, "", Dt011.Rows[0]["T$PDNO"].ToString(), "", "", "", "", "");
+                            bool upd133ss = Update133ss(Dt011.Rows[0]["T$PDNO"].ToString().Trim() + "-" + NewMaxSec, RFID, EVNT, Dt011.Rows[0]["T$PDNO"].ToString(), "", "", "", "", "");
                             if (upd133ss)
                             {
                                 log.Write("upd133ss == " + upd133ss, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
@@ -727,7 +728,7 @@ namespace RfidPopService
                         log.Write(string.Format("I020 =={0};I022=={1};I222=={2}:", I020, I022, I222), AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                         if (I020 && I022 && I222)
                         {
-                            bool upd133ss = Update133ss(Dt011.Rows[0]["T$PDNO"].ToString().Trim() + "-" + NewMaxSecZero, RFID, "", Dt011.Rows[0]["T$PDNO"].ToString(), "", "", "", "", "");
+                            bool upd133ss = Update133ss(Dt011.Rows[0]["T$PDNO"].ToString().Trim() + "-" + NewMaxSecZero, RFID, EVNT, Dt011.Rows[0]["T$PDNO"].ToString(), "", "", "", "", "");
 
                             if (upd133ss)
                             {
@@ -767,7 +768,7 @@ namespace RfidPopService
                             if (upd222)
                             {
                                 log.Write(string.Format("upd222 == {0};", upd222), AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
-                                bool upd133 = Update133ss(col133.Rows[0]["PAID"].ToString(), RFID, "", col133.Rows[0]["ORNO"].ToString(), "", "", "", "", "");
+                                bool upd133 = Update133ss(col133.Rows[0]["PAID"].ToString(), RFID, EVNT, col133.Rows[0]["ORNO"].ToString(), "", "", "", "", "");
                                 if (upd133)
                                 {
                                     log.Write(string.Format("upd133 == {0};", upd133), AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
