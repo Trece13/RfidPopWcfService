@@ -313,6 +313,27 @@ namespace RfidPopService
             return res;
         }
 
+        public bool insertTicol083(string ORNOO, string ORNO, string POST, string ADVS, string ITEM, string QTYP, string UNIT, string CWAR, string MCNO, string DATE, string PRIO, string PICK, string PAID, string LOCA, string USER, string STAT)
+        {
+            bool res = false;
+            try
+            {
+                strSentencia = "INSERT INTO BAAN.TTICOL083140 VALUES ('" + ORNOO + "','" + ORNO + "','" + POST + "','" + ADVS + "','" + ITEM + "','" + QTYP + "','" + UNIT + "','" + CWAR + "','" + MCNO + "',sysdate +5/24 ,'" + PRIO + "','" + PICK + "','" + PAID + "','" + LOCA + "','" + USER + "','" + STAT + "')";
+
+                log.Write(strSentencia, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+                res = Dal.BaseDAL.BaseDal.EjecutarCrud("Text", strSentencia, ref parametersOut, null, false);
+            }
+            catch (Exception e)
+            {
+                log.Write(e.Message.ToString() + " " + strSentencia,
+                    AppDomain.CurrentDomain.FriendlyName,
+                    MethodBase.GetCurrentMethod().Name,
+                    true);
+                throw new Exception("¡ERROR!", e);
+            }
+            return res;
+        }
+
         public DataTable SelectWhcol133Oss(string RFID, string EVNT)
         {
             DataTable dtss = new DataTable();
@@ -597,6 +618,11 @@ namespace RfidPopService
                                                 log.Write("upd133Ora == " + upd133Ora, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                                                 bool upd131 = UpdateWhcol131(Dt131.Rows[0]["T$PAID"].ToString(), "0", "9");
                                                 log.Write("upd131 == " + upd131, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+                                                if (upd131)
+                                                {
+                                                    bool ins083 = insertTicol083("4", Dt011.Rows[0]["T$PDNO"].ToString(), Dt001.Rows[0]["T$PONO"].ToString(), "0", Dt131.Rows[0]["T$ITEM"].ToString(), "1", "UN", "CWAR", "TE09", "", "0", "2", Dt133.Rows[0]["PAID"].ToString(), " ", " ", "4");
+                                                    log.Write("ins083 == " + ins083, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+                                                }
                                             }
                                         }
                                     }
@@ -619,6 +645,11 @@ namespace RfidPopService
                                                 log.Write("upd133Ora == " + upd133Ora, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                                                 bool upd131 = UpdateWhcol131(Dt131.Rows[0]["T$PAID"].ToString(), "0", "9");
                                                 log.Write("upd131 == " + upd131, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+                                                if (upd131)
+                                                {
+                                                    bool ins083 = insertTicol083("4", Dt011.Rows[0]["T$PDNO"].ToString(), Dt001.Rows[0]["T$PONO"].ToString(), "0", Dt131.Rows[0]["T$ITEM"].ToString(), "1", "UN", "CWAR", "TE09", "", "0", "2", Dt133.Rows[0]["PAID"].ToString(), " ", " ", "4");
+                                                    log.Write("ins083 == " + ins083, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+                                                }
                                             }
                                         }
                                     }
