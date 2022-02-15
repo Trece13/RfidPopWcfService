@@ -12,7 +12,8 @@ namespace Utilities
     {
         public void Write(string msg, string aplication, string method, bool Error = false)
         {
-            string path = "C:\\Users\\Md\\AppData\\Local\\Temp\\";
+            string path = "C:\\Temp\\";
+            //string path = "C:\\Users\\Md\\AppData\\Local\\Temp\\";
             string fileLog = "logRfidPop.txt";
             try
             {
