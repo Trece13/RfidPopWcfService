@@ -49,6 +49,12 @@ namespace RfidPopService
 
         [OperationContract]
         void InitProcRfid025(string RFID, string EVNT, string LOGN, string PROC);
+
+        [OperationContract]
+        bool Updtwhcol133RfidSS(string PAID, string RFID);
+
+        [OperationContract]
+        DataTable SelectWhcol133OPaidAssing(string RFID, string EVNT);
     }
 
 
