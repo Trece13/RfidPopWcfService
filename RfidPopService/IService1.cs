@@ -48,7 +48,7 @@ namespace RfidPopService
         void InitProcRfid022(string RFID, string EVNT, string LOGN, string PROC);
 
         [OperationContract]
-        void InitProcRfid025(string RFID, string EVNT, string LOGN, string PROC,string PRINT);
+        void InitProcRfid025(string RFID, string EVNT, string LOGN, string PROC, string PRINT = "");
 
         [OperationContract]
         bool Updtwhcol133RfidSS(string PAID, string RFID);
