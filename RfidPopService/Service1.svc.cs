@@ -14,6 +14,7 @@ using System.Net;
 using System.Collections.Specialized;
 using System.IO;
 using Utilities;
+using System.Web.Configuration;
 
 namespace RfidPopService
 {
@@ -797,7 +798,7 @@ namespace RfidPopService
 
         }
 
-        public void InitProcRfid025(string RFID, string EVNT, string LOGN, string PROC)
+        public void InitProcRfid025(string RFID, string EVNT, string LOGN, string PROC, string PRINT = "")
         {
             try
             {
@@ -833,7 +834,7 @@ namespace RfidPopService
                                         using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
                                         {
                                             string json = "{\"BarTenderLabel\": \"Label_Announce.btw\"," +
-                                                "\"PrinterName\": \"\\\\\\\\scolbogprint\\\\BMPrima\"," +
+                                                "\"PrinterName\": \"" + (PRINT == string.Empty? WebConfigurationManager.AppSettings["CustomPrint"].ToString():PRINT) + "\"," +
                                                 "\"DSCA\": \"" + SelectTcibd001(Dtsfc001.Rows[0]["T$MITM"].ToString()).Rows[0]["T$DSCA"].ToString() + "\"," +
                                                 "\"PAID\": \"" + col133.Rows[0]["PAID"].ToString() + "\"," +
                                                 "\"ORNO\": \"" + col133.Rows[0]["ORNO"].ToString() + "\"," +
