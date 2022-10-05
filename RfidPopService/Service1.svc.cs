@@ -28,6 +28,8 @@ namespace RfidPopService
         private static String owner = " ";
         private static string tabla = "x";
         private static LogGenerator log = new LogGenerator();
+        private static SendEmailService.Service1Client EmailService = new SendEmailService.Service1Client();
+
 
         public string ProWhcol133(string PAID, string RFID, string EVNT, string ORNO, string DATE, string LOGN, string PROC, string REFCNTD, string REFCNTU)
         {
@@ -560,18 +562,16 @@ namespace RfidPopService
 
         private void ValidateCount(DataTable dtToValidate)
         {
-            if(dtToValidate.Rows.Count<=0){
-                SendEmailService.Service1Client EmailService = new SendEmailService.Service1Client();
-                using(EmailService){
-                    EmailService.SendMail("the interface is not working","the interface is not working");
-                }
+            if (dtToValidate.Rows.Count <= 0)
+            {
+                EmailService.SendMail("the interface is not working", "the interface is not working");
             }
         }
 
         public DataTable SelectTicst001PdnoOra(string PDNO, string SITM)
         {
             DataTable DT001 = new DataTable();
-            string strSentencia = string.Empty;         
+            string strSentencia = string.Empty;
             try
             {
                 method = MethodBase.GetCurrentMethod();
@@ -898,7 +898,7 @@ namespace RfidPopService
                     }
                     else
                     {
-                            log.Write("Dt131.Rows.Count == " + Dt131.Rows.Count + " PAID:" + "'"+Dt133.Rows[0]["PAID"].ToString()+"'", AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+                        log.Write("Dt131.Rows.Count == " + Dt131.Rows.Count + " PAID:" + "'" + Dt133.Rows[0]["PAID"].ToString() + "'", AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                     }
                 }
             }
@@ -987,8 +987,9 @@ namespace RfidPopService
             }
             catch (Exception e)
             {
-                
+
                 log.Write(string.Format("¡ERROR! ", e.Message), AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, true);
+                EmailService.SendMail("the interface is not working", "the interface is not working");
             }
 
         }
@@ -1038,7 +1039,7 @@ namespace RfidPopService
                                                 "\"PAID\": \"" + col133.Rows[0]["PAID"].ToString().Trim() + "\"," +
                                                 "\"ORNO\": \"" + col133.Rows[0]["ORNO"].ToString().Trim() + "\"," +
                                                 "\"ITEM\": \"" + Dtsfc001.Rows[0]["T$MITM"].ToString().Trim() + "\"," +
-                                                "\"MCNO\": \""+ (Dt011.Rows.Count > 0 ? Dt011.Rows[0]["T$MCNO"].ToString():"") +"\"," +
+                                                "\"MCNO\": \"" + (Dt011.Rows.Count > 0 ? Dt011.Rows[0]["T$MCNO"].ToString() : "") + "\"," +
                                                 "\"QTY\": \"" + (Dt022.Rows.Count > 0 ? Dt022.Rows[0]["T$QTDL"].ToString() : "1") + "\"," +
                                                 "\"UN\": \"" + (Dt022.Rows.Count > 0 ? Dt022.Rows[0]["T$CUNI"].ToString() : "") + "\"," +
                                                 "\"DATE\": \"" + DateTime.Now.ToString() + "\"," +
@@ -1048,7 +1049,7 @@ namespace RfidPopService
                                             log.Write(string.Format(" json : {0};", json), AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                                         }
                                         var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-        
+
                                         using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
                                         {
                                             var result = streamReader.ReadToEnd();

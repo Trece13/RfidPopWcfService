@@ -36,3 +36,15 @@ C:\Users\Md\Desktop\RfidPop\RfidPop\RfidPopService\bin\Utilities.pdb
 C:\Users\Md\Desktop\RfidPop\RfidPop\RfidPopService\obj\Release\RfidPopService.csprojResolveAssemblyReference.cache
 C:\Users\Md\Desktop\RfidPop\RfidPop\RfidPopService\obj\Release\RfidPopService.dll
 C:\Users\Md\Desktop\RfidPop\RfidPop\RfidPopService\obj\Release\RfidPopService.pdb
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\bin\RfidPopService.dll.config
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\bin\RfidPopService.dll
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\bin\RfidPopService.pdb
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\bin\Dal.dll
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\bin\Entities.dll
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\bin\Utilities.dll
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\bin\Dal.pdb
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\bin\Entities.pdb
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\bin\Utilities.pdb
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\obj\Release\RfidPopService.csprojResolveAssemblyReference.cache
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\obj\Release\RfidPopService.dll
+C:\Users\Md\Downloads\RfidPopWcfService\RfidPopService\obj\Release\RfidPopService.pdb
