@@ -3,3 +3,14 @@ C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Entities\bin\Release\E
 C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Entities\obj\Release\Entities.dll
 C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Entities\obj\Release\Entities.pdb
 C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Entities\obj\Release\Entities.csprojResolveAssemblyReference.cache
+C:\Desarrollos\Pop\RfidPop\Entities\bin\Release\Entities.dll
+C:\Desarrollos\Pop\RfidPop\Entities\bin\Release\Entities.pdb
+C:\Desarrollos\Pop\RfidPop\Entities\obj\Release\Entities.csproj.AssemblyReference.cache
+C:\Desarrollos\Pop\RfidPop\Entities\obj\Release\Entities.csproj.CoreCompileInputs.cache
+C:\Desarrollos\Pop\RfidPop\Entities\obj\Release\Entities.dll
+C:\Desarrollos\Pop\RfidPop\Entities\obj\Release\Entities.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Entities\bin\Release\Entities.dll
+C:\Users\Md\Desktop\RfidPop\RfidPop\Entities\bin\Release\Entities.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Entities\obj\Release\Entities.dll
+C:\Users\Md\Desktop\RfidPop\RfidPop\Entities\obj\Release\Entities.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Entities\obj\Release\Entities.csprojResolveAssemblyReference.cache

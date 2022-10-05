@@ -1,2 +1,0 @@
-# RfidPopWcfService
-RfidPop wcf service

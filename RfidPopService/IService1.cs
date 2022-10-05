@@ -27,6 +27,9 @@ namespace RfidPopService
         DataTable SelectWhcol133Oss(string RFID, string EVNT);
 
         [OperationContract]
+        DataTable SelectWhcol133ORfidss(string RFID, string EVNT);
+        
+        [OperationContract]
         DataTable SelectWhcol131Ora(string PAID);
 
         [OperationContract]
@@ -48,13 +51,17 @@ namespace RfidPopService
         void InitProcRfid022(string RFID, string EVNT, string LOGN, string PROC);
 
         [OperationContract]
-        void InitProcRfid025(string RFID, string EVNT, string LOGN, string PROC, string PRINT = "");
+        void InitProcRfid025(string RFID, string EVNT, string LOGN, string PROC);
 
         [OperationContract]
         bool Updtwhcol133RfidSS(string PAID, string RFID);
 
         [OperationContract]
         DataTable SelectWhcol133OPaidAssing(string RFID, string EVNT);
+
+        [OperationContract]
+        bool Insert133ss(string PAID, string RFID, string EVNT, string ORNO, string DATE, string LOGN, string PROC, string REFCNTD, string REFCNTU);
+        
     }
 
 

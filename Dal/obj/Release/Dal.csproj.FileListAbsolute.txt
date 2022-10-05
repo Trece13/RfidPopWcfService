@@ -7,3 +7,23 @@ C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Dal\bin\Release\Utilit
 C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Dal\obj\Release\Dal.csprojResolveAssemblyReference.cache
 C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Dal\obj\Release\Dal.dll
 C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Dal\obj\Release\Dal.pdb
+C:\Desarrollos\Pop\RfidPop\Dal\bin\Release\Dal.dll
+C:\Desarrollos\Pop\RfidPop\Dal\bin\Release\Dal.pdb
+C:\Desarrollos\Pop\RfidPop\Dal\bin\Release\Entities.dll
+C:\Desarrollos\Pop\RfidPop\Dal\bin\Release\Utilities.dll
+C:\Desarrollos\Pop\RfidPop\Dal\bin\Release\Entities.pdb
+C:\Desarrollos\Pop\RfidPop\Dal\bin\Release\Utilities.pdb
+C:\Desarrollos\Pop\RfidPop\Dal\obj\Release\Dal.csproj.AssemblyReference.cache
+C:\Desarrollos\Pop\RfidPop\Dal\obj\Release\Dal.csproj.CoreCompileInputs.cache
+C:\Desarrollos\Pop\RfidPop\Dal\obj\Release\Dal.csproj.CopyComplete
+C:\Desarrollos\Pop\RfidPop\Dal\obj\Release\Dal.dll
+C:\Desarrollos\Pop\RfidPop\Dal\obj\Release\Dal.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Dal\bin\Release\Dal.dll
+C:\Users\Md\Desktop\RfidPop\RfidPop\Dal\bin\Release\Dal.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Dal\bin\Release\Entities.dll
+C:\Users\Md\Desktop\RfidPop\RfidPop\Dal\bin\Release\Utilities.dll
+C:\Users\Md\Desktop\RfidPop\RfidPop\Dal\bin\Release\Entities.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Dal\bin\Release\Utilities.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Dal\obj\Release\Dal.csprojResolveAssemblyReference.cache
+C:\Users\Md\Desktop\RfidPop\RfidPop\Dal\obj\Release\Dal.dll
+C:\Users\Md\Desktop\RfidPop\RfidPop\Dal\obj\Release\Dal.pdb

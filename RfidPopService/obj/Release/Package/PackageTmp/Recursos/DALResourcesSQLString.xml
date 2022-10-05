@@ -4,34 +4,102 @@
     <Module name="Service1">
       <operationName name="ProWhcol133Ora">
         <stringSQL>
-          INSERT INTO BAAN.TWHCOL133140 VALUES(
-          '[:T$PAID]',
-          '[:T$RFID]',
-          '[:T$EVNT]',
-          '[:T$ORNO]',
-          (SYSDATE -5/24),
-          '[:T$LOGN]',
-          '[:T$PROC]',
-          '0',
-          '0')
+          INSERT INTO baan.TWHCOL133140(T$PAID, T$RFID, T$EVNT, T$ORNO, T$DATE, T$LOGN, T$PROC, T$REFCNTD, T$REFCNTU) VALUES('[:PAID]','[:RFID]','[:EVNT]','[:ORNO]',(SYSDATE +5/24),'[:LOGN]','1','0','0')
         </stringSQL>
       </operationName>
-      <operationName name="SelectWhcol133Ss">
+      <operationName name="InsertTicol080Ora">
         <stringSQL>
-          SELECT TOP 1 [PAID],[RFID],[EVNT],[ORNO],[DATE],[LOGN],[PROC]FROM [RFID_RV].[dbo].[whcol133] WHERE [PAID] = '' ORDER BY [DATE] ASC
+          INSERT INTO baan.TTICOL080140(T$ORNO,T$PONO,T$ITEM,T$CWAR,T$QUNE,T$LOGN,T$DATE,T$PROC,T$CLOT,T$REFCNTD,T$REFCNTU,T$PDAT,T$PICK,T$OORG) VALUES ('[:ORNO]', '[:PONO]', '[:ITEM]', '[:CWAR]', '[:QUNE]', '[:LOGN]', sysdate+5/24, '[:PROC]','[:CLOT]', '0', '0', sysdate+5/24, '[:PICK]','[:OORG]')
         </stringSQL>
       </operationName>
-      <operationName name="UpdateWhcol133Ss">
+      <operationName name="InsertTticol020">
         <stringSQL>
-          UPDATE [RFID_RV].[dbo].[whcol133] set " +
-          [PAID]='[:PAID]'," +
-          [RFID]='[:RFID]'," +
-          [EVNT]='[:EVNT]'," +
-          [ORNO]='[:ORNO]'," +
-          [DATE]='[:DATE]'," +
-          [LOGN]='[:LOGN]'," +
-          [PROC]='Si' " +
-          WHERE RFID = '[:RFID]'";
+          INSERT INTO baan.Tticol020140(T$PDNO,T$MITM,T$DSCA,T$QTDL,T$CUNI,T$DATE,T$MESS,T$REFCNTD,T$REFCNTU,T$USER) VALUES('[:PDNO]','[:MITM]','[:DSCA]','[:QTDL]','[:CUNI]',sysdate+5/24,'[:MESS]','[:REFCNTD]','[:REDCNTU]','[:USER]')
+        </stringSQL>
+      </operationName>
+      <operationName name="InsertTticol022">
+        <stringSQL>
+          INSERT INTO baan.Tticol022140(T$PDNO, T$SQNB, T$PROC, T$LOGN, T$DATE, T$MITM, T$QTDL, T$CUNI, T$LOG1, T$DATC, T$QTD1, T$PRO1, T$LOG2, T$DATU, T$QTD2, T$PRO2, T$LOCA, T$NORP, T$DLRP, T$DELE, T$LOGD, T$DATD, T$REFCNTD, T$REFCNTU) VALUES('[:PDNO]','[:SQNB]', '[:PROC]', '[:LOGN]',sysdate+5/24, '[:MITM]', '[:QTDL]', '[:CUNI]', '[:LOG1]',sysdate+5/24, '[:QTD1]', '2', '[:LOG2]',sysdate+5/24, '[:QTD2]', '[:PRO2]', '[:LOCA]', '[:NORP]',sysdate+5/24, '[:DELE]', '[:LOGD]',sysdate+5/24, '[:REFCNTD]', '[:REFCNTU]')
+        </stringSQL>
+      </operationName>
+      <operationName name="InsertTticol222">
+        <stringSQL>
+          INSERT INTO baan.Tticol222140(T$PDNO, T$SQNB, T$DRPT, T$URPT, T$ACQT, T$CWAF, T$CWAT, T$ACLO, T$REFCNTD, T$REFCNTU, T$ALLO) VALUES('[:PDNO]', '[:SQNB]', sysdate+5/24, '[:URPT]', '[:ACQT]', '[:CWAF]', '[:CWAT]', '[:ACLO]', '[:REFCNTD]', '[:REFCNTU]', '0')
+        </stringSQL>
+      </operationName>
+      <operationName name="InsertTticol025">
+        <stringSQL>
+          INSERT INTO baan.TTICOL025140(T$PDNO,T$SQNB,T$MITM,T$DSCA,T$QTDL,T$CUNI,T$DATE,T$MESS,T$REFCNTD,T$REFCNTU,T$USER) VALUES('[:PDNO]', NVL((SELECT MAX(T$SQNB)+1 SQNB FROM BAAN.TTICOL025140),'1'), '[:MITM]', '[:DSCA]', '[:QTDL]', '[:CUNI]', SYSDATE+5/24, ' ', '[:REFCNTD]', '[:REFCNTU]', ' ')
+        </stringSQL>
+      </operationName>
+      <operationName name="UpdateWhcol131">
+        <stringSQL>
+          UPDATE BAAN.TWHCOL131140 SET T$QTYA = '[:QTYA]', T$STAT = '[:STAT]' WHERE T$PAID = '[:PAID]'
+        </stringSQL>
+      </operationName>
+      <operationName name="UpdateTticol022">
+        <stringSQL>
+          UPDATE BAAN.TTICOL022140 SET T$DATU=sysdate+5/24,T$QTD1='[:QTD1]',T$DELE='[:DELE]',T$PRO1='2' WHERE T$SQNB = '[:SQNB]'
+        </stringSQL>
+      </operationName>
+      <operationName name="UpdateTticol222">
+        <stringSQL>
+          UPDATE  BAAN.TTICOL222140 SET T$CWAT='[:CWAT]',T$ACLO='[:ACLO]' WHERE T$SQNB = '[:SQNB]'
+        </stringSQL>
+      </operationName>
+      <operationName name="UpdateQuneTicol80Ora">
+        <stringSQL>
+          UPDATE BAAN.TTICOL080140 set T$QUNE = T$QUNE + '[:QUNE]' where T$ORNO = '[:ORNO]' AND T$PONO = '[:PONO]' AND T$CLOT = '[:CLOT]'
+        </stringSQL>
+      </operationName>
+      <operationName name="SelectWhcol131Ora">
+        <stringSQL>
+          SELECT * FROM BAAN.TWHCOL131140 WHERE TRIM(T$PAID) = TRIM('[:PAID]')
+        </stringSQL>
+      </operationName>
+      <operationName name="SelectTicol011McnoOra">
+        <stringSQL>
+          SELECT * FROM BAAN.TTICOL011140 WHERE T$MCNO = '[:MCNO]' AND T$STAT = '[:STAT]'
+        </stringSQL>
+      </operationName>
+      <operationName name="SelectTicol011">
+        <stringSQL>
+          SELECT * FROM BAAN.TTICOL011140 WHERE TRIM(T$PDNO) = TRIM('[:PDNO]')
+        </stringSQL>
+      </operationName>
+      <operationName name="SelectTicst001PdnoOra">
+        <stringSQL>
+          SELECT * FROM BAAN.TTICST001140 WHERE T$PDNO = '[:PDNO]' AND T$SITM LIKE '%[:SITM]%'
+        </stringSQL>
+      </operationName>
+      <operationName name="SelectTcibd001">
+        <stringSQL>
+          select * from BAAN.TTCIBD001140 WHERE TRIM(T$ITEM) = TRIM('[:ITEM]')
+        </stringSQL>
+      </operationName>
+      <operationName name="SelectTicol022InnerTicol222">
+        <stringSQL>
+          SELECT * FROM BAAN.TTICOL022140 COL022 INNER JOIN BAAN.TTICOL222140 COL222 ON COL222.T$SQNB = COL022.T$SQNB WHERE COL022.T$SQNB = '[:SQNB]'
+        </stringSQL>
+      </operationName>
+      <operationName name="MaxSecuenceTticol022">
+        <stringSQL>
+          SELECT T$SQNB AS SQNB, SYSDATE AS FECHA, T$DELE AS DELE FROM baan.tticol022140 WHERE T$PDNO = '[:PDNO]' AND T$SQNB = (SELECT MAX(T$SQNB) FROM baan.tticol022140 WHERE T$PDNO = '[:PDNO]' AND REGEXP_LIKE(SUBSTR(T$SQNB,11,1), '[^A-Za-z]'))
+        </stringSQL>
+      </operationName>
+      <operationName name="SelectTisfc001">
+        <stringSQL>
+          SELECT * FROM BAAN.TTISFC001140 WHERE T$PDNO ='[:PDNO]'
+        </stringSQL>
+      </operationName>
+      <operationName name="VerifyTicol80Ora">
+        <stringSQL>
+          SELECT * FROM BAAN.TTICOL080140 WHERE T$ORNO = '[:ORNO]' AND T$PONO = '[:PONO]' AND T$CLOT = '[:CLOT]'
+        </stringSQL>
+      </operationName>
+      <operationName name="insertTicol083">
+        <stringSQL>
+          INSERT INTO baan.TTICOL083140(T$OORG, T$ORNO, T$PONO, T$ADVS, T$ITEM, T$QTYT, T$UNIT, T$CWAR, T$MCNO, T$TIME, T$PRIO, T$PICK, T$PAID, T$LOCA, T$LOGN, T$STAT, T$REFCNTD, T$REFCNTU) VALUES ('[:ORNOO]','[:ORNO]','[:POST]','[:ADVS]','[:ITEM]','[:QTYP]','[:UNIT]','[:CWAR]','[:MCNO]',sysdate +5/24 ,'[:PRIO]','[:PICK]','[:PAID]','[:LOCA]','[:USER]','[:STAT]','0','0')
         </stringSQL>
       </operationName>
       <!--End of new developing-->

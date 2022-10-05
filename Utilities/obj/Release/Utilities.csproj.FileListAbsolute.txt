@@ -3,3 +3,14 @@ C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Utilities\bin\Release\
 C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Utilities\obj\Release\Utilities.dll
 C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Utilities\obj\Release\Utilities.pdb
 C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\Utilities\obj\Release\Utilities.csprojResolveAssemblyReference.cache
+C:\Desarrollos\Pop\RfidPop\Utilities\bin\Release\Utilities.dll
+C:\Desarrollos\Pop\RfidPop\Utilities\bin\Release\Utilities.pdb
+C:\Desarrollos\Pop\RfidPop\Utilities\obj\Release\Utilities.csproj.AssemblyReference.cache
+C:\Desarrollos\Pop\RfidPop\Utilities\obj\Release\Utilities.csproj.CoreCompileInputs.cache
+C:\Desarrollos\Pop\RfidPop\Utilities\obj\Release\Utilities.dll
+C:\Desarrollos\Pop\RfidPop\Utilities\obj\Release\Utilities.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Utilities\bin\Release\Utilities.dll
+C:\Users\Md\Desktop\RfidPop\RfidPop\Utilities\bin\Release\Utilities.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Utilities\obj\Release\Utilities.dll
+C:\Users\Md\Desktop\RfidPop\RfidPop\Utilities\obj\Release\Utilities.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\Utilities\obj\Release\Utilities.csprojResolveAssemblyReference.cache

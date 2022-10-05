@@ -13,13 +13,16 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RfidPopService</RootNamespace>
     <AssemblyName>RfidPopService</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,12 +44,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.EnterpriseServices" />
@@ -66,13 +69,31 @@
     <Content Include="Recursos\LabelsForms.xml" />
     <Content Include="Recursos\MachinesId.xml" />
     <Content Include="Recursos\MensajesForms.xml" />
-    <Content Include="Service References\SrvRfidPop\RfidPopService.SrvRfidPop.CompositeType.datasource">
+    <Content Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <Content Include="Service References\SendEmailService\RfidPopService.SendEmailService.CompositeType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <None Include="Service References\SendEmailService\Service1.wsdl" />
+    <None Include="Service References\SendEmailService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SendEmailService\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SendEmailService\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\SrvRfidPop\Service1.disco" />
     <None Include="Service References\SrvRfidPop\configuration91.svcinfo" />
     <None Include="Service References\SrvRfidPop\configuration.svcinfo" />
     <None Include="Service References\SrvRfidPop\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\SendEmailService\Service1.disco" />
+    <None Include="Service References\SendEmailService\configuration91.svcinfo" />
+    <None Include="Service References\SendEmailService\configuration.svcinfo" />
+    <None Include="Service References\SendEmailService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -83,6 +104,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyResutl.cs" />
+    <Compile Include="Service References\SendEmailService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\SrvRfidPop\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -137,6 +163,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\SendEmailService\" />
     <WCFMetadataStorage Include="Service References\SrvRfidPop\" />
   </ItemGroup>
   <PropertyGroup>

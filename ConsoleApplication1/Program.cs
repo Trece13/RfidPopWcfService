@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace ConsoleApplication1
+namespace ConsoleAppDev
 {
     class Program
     {
@@ -19,7 +19,7 @@ namespace ConsoleApplication1
 
         public static void WriteLog(string msg, string aplication, string method, string ClassOrigin, bool Error = false)
         {
-            string path = "C:\\Users\\Md\\AppData\\Local\\Temp\\";
+            string path = "C:\\Temp\\";
             string fileLog = "logRfidPop.txt";
             try
             {

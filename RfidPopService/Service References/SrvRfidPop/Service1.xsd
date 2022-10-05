@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://localhost:5443/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RfidPopService" />
-  <xs:element name="GetData">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="value" type="xs:int" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="GetDataResponse">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="GetDataResult" nillable="true" type="xs:string" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
   <xs:element name="ProWhcol133">
     <xs:complexType>
       <xs:sequence>
@@ -37,17 +22,331 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="GetDataUsingDataContract">
+  <xs:element name="ProWhcol133Ora">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/RfidPopService" minOccurs="0" name="composite" nillable="true" type="q1:CompositeType" />
+        <xs:element minOccurs="0" name="PAID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ORNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LOGN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROC" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="GetDataUsingDataContractResponse">
+  <xs:element name="ProWhcol133OraResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/RfidPopService" minOccurs="0" name="GetDataUsingDataContractResult" nillable="true" type="q2:CompositeType" />
+        <xs:element minOccurs="0" name="ProWhcol133OraResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Update133ss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PAID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ORNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DATE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LOGN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROC" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REFCNTD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REFCNTU" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Update133ssResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Update133ssResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol133Oss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol133OssResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectWhcol133OssResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol133ORfidss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol133ORfidssResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectWhcol133ORfidssResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol131Ora">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PAID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol131OraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectWhcol131OraResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTicol011McnoOra">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MCNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="STAT" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectTicol011McnoOraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectTicol011McnoOraResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertTicol080Ora">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ORNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PONO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ITEM" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CWAR" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="QUNE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LOGN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DATE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROC" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CLOT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REFCNTD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REFCNTU" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PDAT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PICK" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="OORG" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertTicol080OraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertTicol080OraResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol133Evnt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROC" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol133EvntResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectWhcol133EvntResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWhcol131">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PAID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="QTYA" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="STAT" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWhcol131Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateWhcol131Result" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InitProcRfid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LOGN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROC" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InitProcRfidResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InitProcRfid022">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LOGN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROC" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InitProcRfid022Response">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InitProcRfid025">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LOGN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROC" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InitProcRfid025Response">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Updtwhcol133RfidSS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PAID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Updtwhcol133RfidSSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Updtwhcol133RfidSSResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol133OPaidAssing">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectWhcol133OPaidAssingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectWhcol133OPaidAssingResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insert133ss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PAID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RFID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EVNT" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ORNO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DATE" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LOGN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PROC" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REFCNTD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="REFCNTU" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insert133ssResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Insert133ssResult" type="xs:boolean" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

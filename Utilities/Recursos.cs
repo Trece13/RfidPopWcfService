@@ -38,7 +38,8 @@ namespace Utilities
             method = MethodBase.GetCurrentMethod();
             string resultado = string.Empty;
             strError = string.Empty;
-            string recursoXML = resolveUrlAbsolute(ConfigurationManager.AppSettings["fileResourcesSQL"].ToString());
+            string recursoXML = ConfigurationManager.AppSettings["fileResourcesSQL"].ToString();
+            //string recursoXML = resolveUrlAbsolute(ConfigurationManager.AppSettings["fileResourcesSQL"].ToString());
            
             // Validar parametros de entrada
             if (string.IsNullOrEmpty(Module) || string.IsNullOrEmpty(operationName))
@@ -83,6 +84,7 @@ namespace Utilities
             catch (Exception ex)
             {
                 strError = "Failed to read statement. Try again or contact your administrator ";
+                log.Write(strError + " " + ex.Message + " path:" + recursoXML+" Module:"+Module+" operationName:"+operationName, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                 //log.escribirError(strError + Console.Out.NewLine + ex.Message, method.Module.Name, method.Name, method.ReflectedType.Name);
             }
             return resultado.Trim();

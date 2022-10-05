@@ -1,0 +1,12 @@
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\bin\Release\ConsoleAppDev.exe.config
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\bin\Release\ConsoleAppDev.exe
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\bin\Release\ConsoleAppDev.pdb
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\obj\Release\ConsoleAppDev.csprojResolveAssemblyReference.cache
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\obj\Release\ConsoleAppDev.exe
+C:\Users\Md\Documents\Visual Studio 2013\Projects\RfidPop\ConsoleApplication1\obj\Release\ConsoleAppDev.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\ConsoleApplication1\bin\Release\ConsoleAppDev.exe.config
+C:\Users\Md\Desktop\RfidPop\RfidPop\ConsoleApplication1\bin\Release\ConsoleAppDev.exe
+C:\Users\Md\Desktop\RfidPop\RfidPop\ConsoleApplication1\bin\Release\ConsoleAppDev.pdb
+C:\Users\Md\Desktop\RfidPop\RfidPop\ConsoleApplication1\obj\Release\ConsoleAppDev.csprojResolveAssemblyReference.cache
+C:\Users\Md\Desktop\RfidPop\RfidPop\ConsoleApplication1\obj\Release\ConsoleAppDev.exe
+C:\Users\Md\Desktop\RfidPop\RfidPop\ConsoleApplication1\obj\Release\ConsoleAppDev.pdb

@@ -6,41 +6,60 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\Md\Desktop\New folder</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Publicaciones Fusion2</_PublishTargetUrl>
+    <History>True|2022-05-11T17:27:31.6125704Z;True|2022-05-11T10:43:54.9960826-05:00;True|2022-05-11T10:17:38.2683202-05:00;True|2022-05-05T08:37:12.5742100-05:00;True|2022-05-05T08:04:04.5800556-05:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Dal.dll">
-      <publishTime>02/04/2022 10:06:22</publishTime>
+      <publishTime>10/05/2022 11:17:04</publishTime>
+    </File>
+    <File Include="bin/Dal.pdb">
+      <publishTime>05/11/2022 12:03:22</publishTime>
     </File>
     <File Include="bin/Entities.dll">
-      <publishTime>02/03/2022 09:27:08</publishTime>
+      <publishTime>10/05/2022 11:17:03</publishTime>
+    </File>
+    <File Include="bin/Entities.pdb">
+      <publishTime>05/11/2022 12:03:21</publishTime>
     </File>
     <File Include="bin/RfidPopService.dll">
-      <publishTime>02/09/2022 16:51:01</publishTime>
+      <publishTime>10/05/2022 11:20:47</publishTime>
+    </File>
+    <File Include="bin/RfidPopService.pdb">
+      <publishTime>05/11/2022 12:27:30</publishTime>
     </File>
     <File Include="bin/Utilities.dll">
-      <publishTime>02/04/2022 10:06:21</publishTime>
+      <publishTime>10/05/2022 11:17:03</publishTime>
+    </File>
+    <File Include="bin/Utilities.pdb">
+      <publishTime>05/11/2022 12:03:21</publishTime>
+    </File>
+    <File Include="Properties/DataSources/System.Data.DataTable.datasource">
+      <publishTime>05/11/2022 10:56:30</publishTime>
     </File>
     <File Include="Recursos/DALResourcesSQLString.xml">
-      <publishTime>01/11/2022 15:10:38</publishTime>
+      <publishTime>07/11/2022 14:28:34</publishTime>
     </File>
     <File Include="Recursos/LabelsForms.xml">
-      <publishTime>01/11/2022 10:56:53</publishTime>
+      <publishTime>01/11/2022 10:56:54</publishTime>
     </File>
     <File Include="Recursos/MachinesId.xml">
-      <publishTime>01/11/2022 10:56:53</publishTime>
+      <publishTime>01/11/2022 10:56:54</publishTime>
     </File>
     <File Include="Recursos/MensajesForms.xml">
-      <publishTime>01/11/2022 10:56:53</publishTime>
+      <publishTime>01/11/2022 10:56:54</publishTime>
+    </File>
+    <File Include="Service References/SendEmailService/RfidPopService.SendEmailService.CompositeType.datasource">
+      <publishTime>10/05/2022 11:01:39</publishTime>
     </File>
     <File Include="Service References/SrvRfidPop/RfidPopService.SrvRfidPop.CompositeType.datasource">
       <publishTime>01/11/2022 15:36:07</publishTime>
     </File>
     <File Include="Service1.svc">
-      <publishTime>01/11/2022 10:52:37</publishTime>
+      <publishTime>01/11/2022 10:52:38</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/31/2022 09:19:08</publishTime>
+      <publishTime>10/05/2022 11:20:48</publishTime>
     </File>
   </ItemGroup>
 </Project>

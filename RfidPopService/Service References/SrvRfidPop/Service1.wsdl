@@ -1,55 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
       <xsd:import schemaLocation="http://localhost:5443/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
       <xsd:import schemaLocation="http://localhost:5443/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xsd:import schemaLocation="http://localhost:5443/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RfidPopService" />
+      <xsd:import schemaLocation="http://localhost:5443/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
     </xsd:schema>
   </wsdl:types>
-  <wsdl:message name="IService1_GetData_InputMessage">
-    <wsdl:part name="parameters" element="tns:GetData" />
-  </wsdl:message>
-  <wsdl:message name="IService1_GetData_OutputMessage">
-    <wsdl:part name="parameters" element="tns:GetDataResponse" />
-  </wsdl:message>
   <wsdl:message name="IService1_ProWhcol133_InputMessage">
     <wsdl:part name="parameters" element="tns:ProWhcol133" />
   </wsdl:message>
   <wsdl:message name="IService1_ProWhcol133_OutputMessage">
     <wsdl:part name="parameters" element="tns:ProWhcol133Response" />
   </wsdl:message>
-  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
-    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  <wsdl:message name="IService1_ProWhcol133Ora_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProWhcol133Ora" />
   </wsdl:message>
-  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
-    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  <wsdl:message name="IService1_ProWhcol133Ora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProWhcol133OraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Update133ss_InputMessage">
+    <wsdl:part name="parameters" element="tns:Update133ss" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Update133ss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Update133ssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol133Oss_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol133Oss" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol133Oss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol133OssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol133ORfidss_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol133ORfidss" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol133ORfidss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol133ORfidssResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol131Ora_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol131Ora" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol131Ora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol131OraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectTicol011McnoOra_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectTicol011McnoOra" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectTicol011McnoOra_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectTicol011McnoOraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertTicol080Ora_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertTicol080Ora" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertTicol080Ora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertTicol080OraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol133Evnt_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol133Evnt" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol133Evnt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol133EvntResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateWhcol131_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWhcol131" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateWhcol131_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateWhcol131Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InitProcRfid_InputMessage">
+    <wsdl:part name="parameters" element="tns:InitProcRfid" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InitProcRfid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InitProcRfidResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InitProcRfid022_InputMessage">
+    <wsdl:part name="parameters" element="tns:InitProcRfid022" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InitProcRfid022_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InitProcRfid022Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InitProcRfid025_InputMessage">
+    <wsdl:part name="parameters" element="tns:InitProcRfid025" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InitProcRfid025_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InitProcRfid025Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updtwhcol133RfidSS_InputMessage">
+    <wsdl:part name="parameters" element="tns:Updtwhcol133RfidSS" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Updtwhcol133RfidSS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Updtwhcol133RfidSSResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol133OPaidAssing_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol133OPaidAssing" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SelectWhcol133OPaidAssing_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectWhcol133OPaidAssingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insert133ss_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insert133ss" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insert133ss_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Insert133ssResponse" />
   </wsdl:message>
   <wsdl:portType name="IService1">
-    <wsdl:operation name="GetData">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
-    </wsdl:operation>
     <wsdl:operation name="ProWhcol133">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ProWhcol133" message="tns:IService1_ProWhcol133_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/ProWhcol133Response" message="tns:IService1_ProWhcol133_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="GetDataUsingDataContract">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    <wsdl:operation name="ProWhcol133Ora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ProWhcol133Ora" message="tns:IService1_ProWhcol133Ora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ProWhcol133OraResponse" message="tns:IService1_ProWhcol133Ora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Update133ss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Update133ss" message="tns:IService1_Update133ss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Update133ssResponse" message="tns:IService1_Update133ss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol133Oss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectWhcol133Oss" message="tns:IService1_SelectWhcol133Oss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectWhcol133OssResponse" message="tns:IService1_SelectWhcol133Oss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol133ORfidss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectWhcol133ORfidss" message="tns:IService1_SelectWhcol133ORfidss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectWhcol133ORfidssResponse" message="tns:IService1_SelectWhcol133ORfidss_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol131Ora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectWhcol131Ora" message="tns:IService1_SelectWhcol131Ora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectWhcol131OraResponse" message="tns:IService1_SelectWhcol131Ora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectTicol011McnoOra">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectTicol011McnoOra" message="tns:IService1_SelectTicol011McnoOra_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectTicol011McnoOraResponse" message="tns:IService1_SelectTicol011McnoOra_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertTicol080Ora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertTicol080Ora" message="tns:IService1_InsertTicol080Ora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertTicol080OraResponse" message="tns:IService1_InsertTicol080Ora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol133Evnt">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectWhcol133Evnt" message="tns:IService1_SelectWhcol133Evnt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectWhcol133EvntResponse" message="tns:IService1_SelectWhcol133Evnt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWhcol131">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateWhcol131" message="tns:IService1_UpdateWhcol131_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateWhcol131Response" message="tns:IService1_UpdateWhcol131_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InitProcRfid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InitProcRfid" message="tns:IService1_InitProcRfid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InitProcRfidResponse" message="tns:IService1_InitProcRfid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InitProcRfid022">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InitProcRfid022" message="tns:IService1_InitProcRfid022_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InitProcRfid022Response" message="tns:IService1_InitProcRfid022_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InitProcRfid025">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InitProcRfid025" message="tns:IService1_InitProcRfid025_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InitProcRfid025Response" message="tns:IService1_InitProcRfid025_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Updtwhcol133RfidSS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Updtwhcol133RfidSS" message="tns:IService1_Updtwhcol133RfidSS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Updtwhcol133RfidSSResponse" message="tns:IService1_Updtwhcol133RfidSS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol133OPaidAssing">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SelectWhcol133OPaidAssing" message="tns:IService1_SelectWhcol133OPaidAssing_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SelectWhcol133OPaidAssingResponse" message="tns:IService1_SelectWhcol133OPaidAssing_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert133ss">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insert133ss" message="tns:IService1_Insert133ss_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Insert133ssResponse" message="tns:IService1_Insert133ss_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="GetData">
-      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="ProWhcol133">
       <soap:operation soapAction="http://tempuri.org/IService1/ProWhcol133" style="document" />
       <wsdl:input>
@@ -59,8 +180,134 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetDataUsingDataContract">
-      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+    <wsdl:operation name="ProWhcol133Ora">
+      <soap:operation soapAction="http://tempuri.org/IService1/ProWhcol133Ora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update133ss">
+      <soap:operation soapAction="http://tempuri.org/IService1/Update133ss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol133Oss">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectWhcol133Oss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol133ORfidss">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectWhcol133ORfidss" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol131Ora">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectWhcol131Ora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectTicol011McnoOra">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectTicol011McnoOra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTicol080Ora">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertTicol080Ora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol133Evnt">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectWhcol133Evnt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateWhcol131">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateWhcol131" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitProcRfid">
+      <soap:operation soapAction="http://tempuri.org/IService1/InitProcRfid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitProcRfid022">
+      <soap:operation soapAction="http://tempuri.org/IService1/InitProcRfid022" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitProcRfid025">
+      <soap:operation soapAction="http://tempuri.org/IService1/InitProcRfid025" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Updtwhcol133RfidSS">
+      <soap:operation soapAction="http://tempuri.org/IService1/Updtwhcol133RfidSS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectWhcol133OPaidAssing">
+      <soap:operation soapAction="http://tempuri.org/IService1/SelectWhcol133OPaidAssing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert133ss">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insert133ss" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

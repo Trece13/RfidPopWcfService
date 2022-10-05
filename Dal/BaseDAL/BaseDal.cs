@@ -10,13 +10,14 @@ using System.Data.OracleClient;
 using System.Diagnostics;
 using System.Reflection;
 using Entities;
+using Utilities;
 
 
 namespace Dal.BaseDAL
 {
     public class BaseDal
     {
-
+        private static LogGenerator log = new LogGenerator();
         private static OracleConnection conexionBD;
         //private static Utilidades.Seguimiento log = new Seguimiento();
         private static StackTrace stackTrace = new StackTrace();
@@ -40,8 +41,12 @@ namespace Dal.BaseDAL
 
         public static bool creaConexion()
         {
+            log.Write("Entro a crear conexion", AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+
             string cadenaConexion = string.Empty;
             cadenaConexion = ConfigurationManager.ConnectionStrings[connectionCaption["cnxWEBInterfaz"]].ConnectionString;
+            log.Write("Cadena de conexion = "+cadenaConexion, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+            
             method = MethodBase.GetCurrentMethod();
 
             System.Diagnostics.Trace.TraceWarning(cadenaConexion);
@@ -52,6 +57,8 @@ namespace Dal.BaseDAL
             }
             catch (OracleException ex)
             {
+                log.Write(ex.Message, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+
                 //log.escribirError(ex.Message, stackTrace.GetFrame(1).GetMethod().Name, method.Name, method.ReflectedType.Name);
             }
 
@@ -236,21 +243,26 @@ namespace Dal.BaseDAL
         {
             method = MethodBase.GetCurrentMethod();
             DataTable resultado = new DataTable();
+            log.Write("Enttra a ejecutar cons", AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
+
             if (creaConexion())
             {
+                log.Write("crear conexion == true", AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                 OracleCommand cmd = new OracleCommand();
 
                 try
                 {
                     //Carga parámetros de entrada para el cmd...
+                    log.Write("Entra a try", AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                     CargarParEntCmd(tipoSentencia, ref cmd, false, false, strQuery, lstParameters);
                     cmd.Connection = conexionBD;
                     OracleDataAdapter da = new OracleDataAdapter(cmd);
                     da.Fill(resultado); //. = (DataTable)cmd.ExecuteScalar();
-
+                    log.Write("Ejecuta fill", AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                 }
                 catch (Exception ex)
                 {
+                    log.Write(ex.Message, AppDomain.CurrentDomain.FriendlyName, MethodBase.GetCurrentMethod().Name, false);
                     //log.escribirError(ex.Message + " [" + strQuery + "]", stackTrace.GetFrame(1).GetMethod().Name, method.Name, method.ReflectedType.Name);
                     throw ex;
                 }
