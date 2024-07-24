@@ -1031,7 +1031,11 @@ namespace RfidPopService
                                         DataTable Dt011 = SelectTicol011(col133.Rows[0]["ORNO"].ToString().Trim());
                                         using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
                                         {
-                                            string print = WebConfigurationManager.AppSettings["CustomPrint"];
+
+                                            string articlesListCustomPrint = WebConfigurationManager.AppSettings["ArticlesListCustomPrint"];
+                                            string[] articlesListCustomPrintList = articlesListCustomPrint.Split(';');
+                                            int indice = Array.IndexOf(articlesListCustomPrintList,Dtsfc001.Rows[0]["T$MITM"].ToString());
+                                            string print = indice != -1 ? WebConfigurationManager.AppSettings["CustomPrint1"] : WebConfigurationManager.AppSettings["CustomPrint"];
                                             string json = "{\"BarTenderLabel\": \"Label_Announce.btw\"," +
                                                 //"\"PrinterName\": \"\\\\\\\\scolbogprint\\\\BMPrima\"," +
                                                 "\"PrinterName\": \"" + print + "\"," +
